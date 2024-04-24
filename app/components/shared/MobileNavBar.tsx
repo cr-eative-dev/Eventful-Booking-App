@@ -10,7 +10,7 @@ const MobileNavBar = () => {
     <nav className="md:hidden">
       <Sheet>
         <SheetTrigger className="align-middle">
-          <MobileMenu className="w-6 text-black dark:text-white" />
+          <MobileMenu className="w-8 text-black dark:text-white" />
           {/* <Image
             src={"/assets/icons/mobile-menu.svg"}
             alt="Mobile Menu Icon"
