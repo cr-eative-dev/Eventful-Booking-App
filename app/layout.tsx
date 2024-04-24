@@ -1,20 +1,20 @@
 import type { Metadata } from "next";
-import { Poppins } from "next/font/google";
+import { Inter } from "next/font/google";
 import { ThemeProvider } from "@/app/components/shared/theme-provider";
 import { ClerkProvider } from "@clerk/nextjs";
 import "./globals.css";
 
-const poppins = Poppins({
+const inter = Inter({
   subsets: ["latin"],
   weight: ["400", "500", "600", "700"],
-  variable: "--font-poppins",
+  variable: "--font-inter",
 });
 
 export const metadata: Metadata = {
   title: "Eventful",
   description: "The easiest way to experience the future of events.",
   icons: {
-    icon: "/assets/icons/logo.svg",
+    icon: "/assets/icons/stern.svg",
   },
 };
 
@@ -26,7 +26,7 @@ export default function RootLayout({
   return (
     <ClerkProvider>
       <html lang="en">
-        <body className={poppins.variable}>
+        <body className={inter.variable}>
           <ThemeProvider
             attribute="class"
             defaultTheme="system"

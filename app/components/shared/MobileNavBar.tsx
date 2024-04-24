@@ -1,8 +1,4 @@
-import {
-  Sheet,
-  SheetContent,
-  SheetTrigger,
-} from "@/components/ui/sheet";
+import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 import Image from "next/image";
 import { Separator } from "@/components/ui/separator";
 import NavItems from "./NavItems";
@@ -25,12 +21,9 @@ const MobileNavBar = () => {
             <Image
               src="/assets/images/logo.svg"
               alt="Eventful Logo"
-              width={32}
-              height={32}
+              width={120}
+              height={120}
             />
-            <h1>
-              Eventful<span className="text-primary">App</span>
-            </h1>
           </div>
           <Separator />
           <NavItems />

@@ -20,12 +20,9 @@ const Header = () => {
           <Image
             src={"/assets/images/logo.svg"}
             alt="Eventful Logo"
-            width={32}
-            height={32}
+            width={400}
+            height={350}
           />
-          <h1>
-            Eventful<span className="text-primary">App</span>
-          </h1>
         </Link>
 
         <SignedIn>
