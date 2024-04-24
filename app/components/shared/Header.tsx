@@ -1,7 +1,11 @@
+"use client";
+
 import { Button } from "@/components/ui/button";
 import { ModeToggle } from "./mode-toggle";
 import Link from "next/link";
 import Image from "next/image";
+import { dark } from "@clerk/themes";
+import { useTheme } from "next-themes";
 import {
   SignInButton,
   SignUpButton,
@@ -14,6 +18,7 @@ import MobileNavBar from "./MobileNavBar";
 import Logo from "@/app/components/shared/Logo";
 
 const Header = () => {
+  const { theme } = useTheme();
   return (
     <header className="w-full">
       <div className="wrapper flex justify-between items-center">
@@ -36,7 +41,17 @@ const Header = () => {
         <div className="flex gap-2 items-center">
           <ModeToggle />
           <SignedIn>
-            <UserButton afterSignOutUrl="/" />
+            <UserButton
+              userProfileProps={{
+                appearance: {
+                  baseTheme: theme === "dark" ? dark : undefined,
+                },
+              }}
+              appearance={{
+                baseTheme: theme === "dark" ? dark : undefined,
+              }}
+              afterSignOutUrl="/"
+            />
             <MobileNavBar />
           </SignedIn>
 
