@@ -1,5 +1,5 @@
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
-import Image from "next/image";
+
 import { Separator } from "@/components/ui/separator";
 import NavItems from "./NavItems";
 import Logo from "./Logo";
@@ -19,7 +19,7 @@ const MobileNavBar = () => {
             className="cursor-pointer"
           /> */}
         </SheetTrigger>
-        <SheetContent className="flex flex-col gap-6 bg-white md:hidden">
+        <SheetContent className="flex flex-col gap-6 bg-white md:hidden dark:bg-black">
           <div className="flex items-center gap-2">
             <Logo className="w-40 text-black dark:text-white" />
             {/* <Image
