@@ -2,6 +2,7 @@ import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 import Image from "next/image";
 import { Separator } from "@/components/ui/separator";
 import NavItems from "./NavItems";
+import Logo from "./Logo";
 
 const MobileNavBar = () => {
   return (
@@ -18,12 +19,13 @@ const MobileNavBar = () => {
         </SheetTrigger>
         <SheetContent className="flex flex-col gap-6 bg-white md:hidden">
           <div className="flex items-center gap-2">
-            <Image
+            <Logo className="w-40 text-black dark:text-white" />
+            {/* <Image
               src="/assets/images/logo.svg"
               alt="Eventful Logo"
               width={120}
               height={120}
-            />
+            /> */}
           </div>
           <Separator />
           <NavItems />

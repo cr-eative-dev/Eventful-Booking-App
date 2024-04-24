@@ -11,18 +11,20 @@ import {
 } from "@clerk/nextjs";
 import NavItems from "./NavItems";
 import MobileNavBar from "./MobileNavBar";
+import Logo from "@/app/components/shared/Logo";
 
 const Header = () => {
   return (
     <header className="w-full">
       <div className="wrapper flex justify-between items-center">
         <Link href={"/"} className="flex gap-1 w-36 items-center">
-          <Image
+          <Logo className="w-40 text-black dark:text-white" />
+          {/* <Image
             src={"/assets/images/logo.svg"}
             alt="Eventful Logo"
             width={400}
             height={350}
-          />
+          /> */}
         </Link>
 
         <SignedIn>
