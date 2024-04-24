@@ -3,19 +3,21 @@ import Image from "next/image";
 import { Separator } from "@/components/ui/separator";
 import NavItems from "./NavItems";
 import Logo from "./Logo";
+import MobileMenu from "./MobileMenu";
 
 const MobileNavBar = () => {
   return (
     <nav className="md:hidden">
       <Sheet>
         <SheetTrigger className="align-middle">
-          <Image
+          <MobileMenu className="w-6 text-black dark:text-white" />
+          {/* <Image
             src={"/assets/icons/mobile-menu.svg"}
             alt="Mobile Menu Icon"
             width={32}
             height={32}
             className="cursor-pointer"
-          />
+          /> */}
         </SheetTrigger>
         <SheetContent className="flex flex-col gap-6 bg-white md:hidden">
           <div className="flex items-center gap-2">
