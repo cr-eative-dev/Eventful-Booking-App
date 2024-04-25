@@ -2,6 +2,8 @@ import * as React from "react";
 
 interface SvgProps {
   textColor?: string;
+  className?: string;
+  width?: number;
 }
 
 const MobileMenu: React.FC<SvgProps> = (props) => (
