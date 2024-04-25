@@ -28,7 +28,20 @@ export default function Home() {
             className="max-h-[70vh] object-contain object-center 2xl:max-h-[50vh]"
           />
         </div>
-      </section>{" "}
+
+        <section
+          id="events"
+          className="wrapper my-8 flex flex-col gap-8 md:gap-12"
+        >
+          <h2 className="h2-bold">
+            Explore <br /> hundred of experiences.
+          </h2>
+
+          <div className="flex w-full flex-col gap-5 md:flex-row">
+            Search Filter Category
+          </div>
+        </section>
+      </section>
     </>
   );
 }
