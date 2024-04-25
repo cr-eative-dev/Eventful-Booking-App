@@ -9,8 +9,8 @@ export default function Home() {
         <div className="wrapper grid grid-cols-1 gap-5 md:grid-cols-2 2xl:gap-0">
           <div className="flex flex-col justify-center gap-8">
             <h1 className="h1-bold">
-              One <span className="font-tanmeringue">platform</span> for all
-              your best <span className="font-tanmeringue">experiences.</span>
+              One platform for all your best{" "}
+              <span className="font-tanmeringue">experiences.</span>
             </h1>
             <p className="p-regular-20 md:p-regular-24">
               Book your next event, meet your friends, and share your
