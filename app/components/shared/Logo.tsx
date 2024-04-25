@@ -2,7 +2,7 @@ import React from "react";
 
 interface SvgProps {
   textColor?: string;
-  width: number;
+  width?: number;
   className?: string;
 }
 
