@@ -26,7 +26,7 @@ export default function Home() {
             alt="hero"
             width={1000}
             height={1000}
-            className="max-h-[70vh] object-contain object-center 2xl:max-h-[50vh]"
+            className="max-h-[70vh] object-contain object-center 2xl:max-h-[50vh] dark:filter dark:invert dark:brightness-9000 dark:contrast-150 dark:grayscale"
           />
         </div>
 
