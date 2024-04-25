@@ -6,7 +6,7 @@ interface SvgProps {
   className?: string;
 }
 
-const Logo: React.FC<SvgProps> = (props) => (
+const Logo = (props: any) => (
   <svg
     viewBox="0 0 9800 2400"
     xmlSpace="preserve"

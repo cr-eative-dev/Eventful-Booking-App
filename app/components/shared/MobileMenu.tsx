@@ -1,12 +1,12 @@
 import * as React from "react";
 
-interface SvgProps {
-  textColor?: string;
-  className?: string;
-  width?: number;
-}
+// interface SvgProps {
+//   textColor?: string;
+//   className?: string;
+//   width?: number;
+// }
 
-const MobileMenu: React.FC<SvgProps> = (props) => (
+const MobileMenu = (props: any) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     width={24}
