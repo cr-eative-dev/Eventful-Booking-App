@@ -35,7 +35,7 @@ export default function Home() {
           className="wrapper my-8 flex flex-col gap-8 md:gap-12"
         >
           <h2 className="h2-bold">
-            <span className="font-tanmeringue">Explore</span> <br /> hundred of
+            <span className="font-tanmeringue">Explore</span> <br /> hundreds of
             experiences.
           </h2>
 
