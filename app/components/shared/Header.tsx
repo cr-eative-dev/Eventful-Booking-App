@@ -20,7 +20,7 @@ import Logo from "@/app/components/shared/Logo";
 const Header = () => {
   const { theme } = useTheme();
   return (
-    <header className="w-full">
+    <header className="w-full border-b">
       <div className="wrapper flex justify-between items-center">
         <Link href={"/"} className="flex gap-1 w-36 items-center">
           <Logo className="w-40 text-black dark:text-white" />

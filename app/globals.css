@@ -63,7 +63,7 @@
 
 @layer utilities {
   .wrapper {
-    @apply lg:mx-auto p-5 md:p-5 xl:p-5 w-full;
+    @apply max-w-7xl lg:mx-auto p-5 md:p-5 xl:p-5 w-full;
   }
 
   .flex-center {

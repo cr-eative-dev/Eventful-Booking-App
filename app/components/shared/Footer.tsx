@@ -3,8 +3,8 @@ import Logo from "@/app/components/shared/Logo";
 
 const Footer = () => {
   return (
-    <footer>
-      <div className="flex-center wrapper flex-between flex flex-col text-center sm:flex-row">
+    <footer className="border-t">
+      <div className="flex-center wrapper flex-between flex flex-col gap-4 text-center sm:flex-row">
         <Link href={"/"}>
           <Logo width={128} />
         </Link>
