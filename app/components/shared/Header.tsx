@@ -38,7 +38,7 @@ const Header = () => {
           </nav>
         </SignedIn>
 
-        <div className="flex gap-2 items-center">
+        <div className="flex gap-5 items-center">
           <ModeToggle />
           <SignedIn>
             <UserButton
