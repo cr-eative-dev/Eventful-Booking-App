@@ -1,4 +1,10 @@
-const Logo = (props) => (
+import React from "react";
+
+interface SvgProps {
+  textColor?: string;
+}
+
+const Logo: React.FC<SvgProps> = (props) => (
   <svg
     viewBox="0 0 9800 2400"
     xmlSpace="preserve"
