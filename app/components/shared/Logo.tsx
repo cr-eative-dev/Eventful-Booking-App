@@ -2,6 +2,7 @@ import React from "react";
 
 interface SvgProps {
   textColor?: string;
+  width: number;
 }
 
 const Logo: React.FC<SvgProps> = (props) => (
