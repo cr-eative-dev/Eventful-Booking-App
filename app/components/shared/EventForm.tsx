@@ -49,7 +49,6 @@ const EventForm = ({ userId, type }: EventFormProps) => {
   return (
     <>
       <div>
-        Event Form {type}
         <Form {...form}>
           <form
             onSubmit={form.handleSubmit(onSubmit)}
