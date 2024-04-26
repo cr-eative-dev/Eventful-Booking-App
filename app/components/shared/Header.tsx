@@ -3,7 +3,6 @@
 import { Button } from "@/components/ui/button";
 import { ModeToggle } from "./mode-toggle";
 import Link from "next/link";
-import Image from "next/image";
 import { dark } from "@clerk/themes";
 import { useTheme } from "next-themes";
 import {
@@ -19,26 +18,29 @@ import Logo from "@/app/components/shared/Logo";
 
 const Header = () => {
   const { theme } = useTheme();
+
   return (
     <header className="w-full border-b">
-      <div className="wrapper flex justify-between items-center">
+      <div className="wrapper flex flex-col gap-3 md:flex-row justify-between items-center">
         <Link href={"/"} className="flex gap-1 w-36 items-center">
           <Logo className="w-40 text-black dark:text-white" />
-          {/* <Image
-            src={"/assets/images/logo.svg"}
-            alt="Eventful Logo"
-            width={400}
-            height={350}
-          /> */}
         </Link>
 
         <SignedIn>
-          <nav className="md:flex-between hidden w-full max-w-xs">
+          <nav className="flex-col md:flex-row md:flex hidden w-full max-w-xs">
             <NavItems />
           </nav>
         </SignedIn>
 
-        <div className="flex gap-5 items-center">
+        <div className="flex gap-3 items-center">
+          <SignedOut>
+            <SignInButton mode="modal">
+              <Button>Login</Button>
+            </SignInButton>
+            <SignUpButton mode="modal">
+              <Button>Register</Button>
+            </SignUpButton>
+          </SignedOut>
           <ModeToggle />
           <SignedIn>
             <UserButton
@@ -54,15 +56,6 @@ const Header = () => {
             />
             <MobileNavBar />
           </SignedIn>
-
-          <SignedOut>
-            <SignInButton mode="modal">
-              <Button>Login</Button>
-            </SignInButton>
-            <SignUpButton mode="modal">
-              <Button>Register</Button>
-            </SignUpButton>
-          </SignedOut>
         </div>
       </div>
     </header>
