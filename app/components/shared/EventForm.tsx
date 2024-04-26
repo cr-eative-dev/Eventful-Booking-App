@@ -23,6 +23,8 @@ import { FileUploader } from "./FileUploader";
 import { useState } from "react";
 import Image from "next/image";
 import { MapPin } from "lucide-react";
+import { Calendar } from "lucide-react";
+import { DatePicker } from "./DatePicker";
 
 type EventFormProps = {
   userId: string;
@@ -100,7 +102,7 @@ const EventForm = ({ userId, type }: EventFormProps) => {
                       <Textarea
                         placeholder="Event description"
                         {...field}
-                        className="textarea rounded-2xl"
+                        className="textarea"
                       />
                     </FormControl>
 
@@ -134,7 +136,7 @@ const EventForm = ({ userId, type }: EventFormProps) => {
                 render={({ field }) => (
                   <FormItem className="w-full">
                     <FormControl>
-                      <div className="flex-center h-[54px] w-full overflow-hidden rounded-full bg-grey-50 px-4 py-2">
+                      <div className="flex-center h-[54px] w-full overflow-hidden  gap-2">
                         <MapPin />
 
                         <Input
@@ -142,6 +144,26 @@ const EventForm = ({ userId, type }: EventFormProps) => {
                           {...field}
                           className="input-field"
                         />
+                      </div>
+                    </FormControl>
+                    <FormMessage />
+                  </FormItem>
+                )}
+              />
+            </div>
+
+            <div className="flex flex-col gap-5 md:flex-row">
+              <FormField
+                control={form.control}
+                name="location"
+                render={({ field }) => (
+                  <FormItem className="w-full">
+                    <FormControl>
+                      <div className="flex-center h-[54px] w-full overflow-hidden  gap-2">
+                        <p className="ml-3 whitespace-nowrap text-gray-600">
+                          Start Date:
+                        </p>
+                        <DatePicker />
                       </div>
                     </FormControl>
                     <FormMessage />
