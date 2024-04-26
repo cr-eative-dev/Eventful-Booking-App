@@ -6,12 +6,12 @@ const CreateEvent = () => {
   const userId = sessionClaims.userId as string;
   return (
     <>
-      <section className="bg-primary-50 bg-dotted-pattern bg-cover py-10 bg-center md:py-5">
-        <h3 className="wrapper h3-bold text-left sm:text-center">
+      <section className="bg-primary-50 bg-dotted-pattern bg-cover py-5 bg-center md:py-3">
+        <h3 className="decoration-neutral-400 underline underline-offset-8 wrapper h3-bold text-center">
           Create Event
         </h3>
       </section>
-      <div className="wrapper my-8">
+      <div className="wrapper my-1">
         <EventForm userId={userId} type="Create" />
       </div>
     </>
