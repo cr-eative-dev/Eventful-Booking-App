@@ -56,67 +56,66 @@ const EventForm = ({ userId, type }: EventFormProps) => {
             className="flex flex-col gap-5"
           >
             <div className="flex flex-col gap-5 md:flex-row">
-              <FormField
-                control={form.control}
-                name="title"
-                render={({ field }) => (
-                  <FormItem className="w-full">
-                    <FormControl>
-                      <Input
-                        placeholder="Event title"
-                        {...field}
-                        className="input-field"
-                      />
-                    </FormControl>
+              <div className="flex flex-col gap-5 w-full">
+                <FormField
+                  control={form.control}
+                  name="title"
+                  render={({ field }) => (
+                    <FormItem className="w-full">
+                      <FormControl>
+                        <Input
+                          placeholder="Event title"
+                          {...field}
+                          className="input-field"
+                        />
+                      </FormControl>
 
-                    <FormMessage />
-                  </FormItem>
-                )}
-              />
+                      <FormMessage />
+                    </FormItem>
+                  )}
+                />
 
-              <FormField
-                control={form.control}
-                name="categoryId"
-                render={({ field }) => (
-                  <FormItem className="w-full">
-                    <FormControl>
-                      <Dropdown
-                        onChangeHandler={field.onChange}
-                        value={field.value}
-                      />
-                    </FormControl>
+                <FormField
+                  control={form.control}
+                  name="categoryId"
+                  render={({ field }) => (
+                    <FormItem className="w-full">
+                      <FormControl>
+                        <Dropdown
+                          onChangeHandler={field.onChange}
+                          value={field.value}
+                        />
+                      </FormControl>
 
-                    <FormMessage />
-                  </FormItem>
-                )}
-              />
-            </div>
+                      <FormMessage />
+                    </FormItem>
+                  )}
+                />
+                <FormField
+                  control={form.control}
+                  name="description"
+                  render={({ field }) => (
+                    <FormItem className="flex h-full w-full">
+                      <FormControl>
+                        <Textarea
+                          placeholder="Event description"
+                          {...field}
+                          className="textarea"
+                        />
+                      </FormControl>
 
-            <div className="flex flex-col gap-5 md:flex-row">
-              <FormField
-                control={form.control}
-                name="description"
-                render={({ field }) => (
-                  <FormItem className="w-full">
-                    <FormControl className="h-72">
-                      <Textarea
-                        placeholder="Event description"
-                        {...field}
-                        className="textarea"
-                      />
-                    </FormControl>
-
-                    <FormMessage />
-                  </FormItem>
-                )}
-              />
+                      <FormMessage />
+                    </FormItem>
+                  )}
+                />
+              </div>
 
               <FormField
                 control={form.control}
                 name="imageUrl"
                 render={({ field }) => (
                   <FormItem className="w-full">
-                    <FormControl className="h-72">
+                    <FormControl>
                       <FileUploader
                         onFieldChange={field.onChange}
                         imageUrl={field.value}
