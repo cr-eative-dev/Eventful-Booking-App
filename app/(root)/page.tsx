@@ -16,7 +16,12 @@ export default function Home() {
               Book your next event, meet your friends, and share your
               experiences with the world.
             </p>
-            <Button size="lg" asChild className="button w-full sm:w-fit">
+            <Button
+              variant="outline"
+              size="lg"
+              asChild
+              className="button w-full sm:w-fit"
+            >
               <Link href="#events">Take me to the events</Link>
             </Button>
           </div>

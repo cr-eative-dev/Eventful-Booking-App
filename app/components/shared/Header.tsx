@@ -21,9 +21,9 @@ const Header = () => {
 
   return (
     <header className="w-full border-b">
-      <div className="wrapper flex flex-col gap-3 md:flex-row justify-between items-center">
+      <div className="wrapper flex flex-col gap-6 md:flex-row justify-between items-center">
         <Link href={"/"} className="flex gap-1 w-36 items-center">
-          <Logo className="w-40 text-black dark:text-white" />
+          <Logo className="text-black dark:text-white" />
         </Link>
 
         <SignedIn>
@@ -35,7 +35,7 @@ const Header = () => {
         <div className="flex gap-3 items-center">
           <SignedOut>
             <SignInButton mode="modal">
-              <Button>Login</Button>
+              <Button variant="outline">Login</Button>
             </SignInButton>
             <SignUpButton mode="modal">
               <Button>Register</Button>
