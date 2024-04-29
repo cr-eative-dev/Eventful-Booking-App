@@ -25,6 +25,9 @@ import Image from "next/image";
 import { MapPin } from "lucide-react";
 import { Calendar } from "lucide-react";
 import { DatePicker } from "./DatePicker";
+import { Checkbox } from "@/components/ui/checkbox";
+import { Link } from "lucide-react";
+import { CircleDollarSign } from "lucide-react";
 
 type EventFormProps = {
   userId: string;
@@ -150,52 +153,111 @@ const EventForm = ({ userId, type }: EventFormProps) => {
               />
             </div>
 
-            <div className="flex flex-col w-full md:flex-row">
-              <div className=" w-full flex flex-col gap-5 md:flex-row">
-                <FormField
-                  control={form.control}
-                  name="startDateTime"
-                  render={({ field }) => (
-                    <FormItem className="w-full">
-                      <FormControl>
-                        <div className="flex-center h-[54px] w-full overflow-hidden  gap-2">
-                          <p className="ml-3 whitespace-nowrap text-gray-600">
-                            Start Date:
-                          </p>
-                          <DatePicker
-                            selected={field.value}
-                            onSelect={(date: Date) => field.onChange(date)}
-                          />
-                        </div>
-                      </FormControl>
-                      <FormMessage />
-                    </FormItem>
-                  )}
-                />
-              </div>
+            <div className=" w-full flex flex-col gap-5 md:flex-row">
+              <FormField
+                control={form.control}
+                name="startDateTime"
+                render={({ field }) => (
+                  <FormItem className="w-full">
+                    <FormControl>
+                      <div className="flex-center h-[54px] w-full overflow-hidden  gap-2">
+                        <p className="ml-3 whitespace-nowrap text-gray-600">
+                          Start Date:
+                        </p>
+                        <DatePicker
+                          selected={field.value}
+                          onSelect={(date: Date) => field.onChange(date)}
+                        />
+                      </div>
+                    </FormControl>
+                    <FormMessage />
+                  </FormItem>
+                )}
+              />
 
-              <div className="w-full flex flex-col gap-5 md:flex-row">
-                <FormField
-                  control={form.control}
-                  name="endDateTime"
-                  render={({ field }) => (
-                    <FormItem className="w-full">
-                      <FormControl>
-                        <div className="flex-center h-[54px] w-full overflow-hidden  gap-2">
-                          <p className="ml-3 whitespace-nowrap text-gray-600">
-                            End Date:
-                          </p>
-                          <DatePicker
-                            selected={field.value}
-                            onSelect={(date: Date) => field.onChange(date)}
-                          />
-                        </div>
-                      </FormControl>
-                      <FormMessage />
-                    </FormItem>
-                  )}
-                />
-              </div>
+              <FormField
+                control={form.control}
+                name="endDateTime"
+                render={({ field }) => (
+                  <FormItem className="w-full">
+                    <FormControl>
+                      <div className="flex-center h-[54px] w-full overflow-hidden  gap-2">
+                        <p className="ml-3 whitespace-nowrap text-gray-600">
+                          End Date:
+                        </p>
+                        <DatePicker
+                          selected={field.value}
+                          onSelect={(date: Date) => field.onChange(date)}
+                        />
+                      </div>
+                    </FormControl>
+                    <FormMessage />
+                  </FormItem>
+                )}
+              />
+            </div>
+
+            <div className="flex flex-col gap-5 md:flex-row">
+              <FormField
+                control={form.control}
+                name="price"
+                render={({ field }) => (
+                  <FormItem className="w-full">
+                    <FormControl>
+                      <div className="flex-center h-[54px] w-full overflow-hidden  gap-2">
+                        <CircleDollarSign />
+                        <Input type="number" placeholder="Price" {...field} />
+                        <FormField
+                          control={form.control}
+                          name="isFree"
+                          render={({ field }) => (
+                            <FormItem>
+                              <FormControl>
+                                <div className="flex items-center">
+                                  <label
+                                    htmlFor="isFree"
+                                    className="whitespace-nowrap pr-3 leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
+                                  >
+                                    Free Ticket
+                                  </label>
+                                  <Checkbox
+                                    onCheckedChange={field.onChange}
+                                    checked={field.value}
+                                    id="isFree"
+                                    className="mr-2 h-5 w-5 border"
+                                  />
+                                </div>
+                              </FormControl>
+                              <FormMessage />
+                            </FormItem>
+                          )}
+                        />
+                      </div>
+                    </FormControl>
+                    <FormMessage />
+                  </FormItem>
+                )}
+              />
+              <FormField
+                control={form.control}
+                name="url"
+                render={({ field }) => (
+                  <FormItem className="w-full">
+                    <FormControl>
+                      <div className="flex-center h-[54px] w-full overflow-hidden  gap-2">
+                        <Link />
+
+                        <Input
+                          placeholder="URL"
+                          {...field}
+                          className="input-field"
+                        />
+                      </div>
+                    </FormControl>
+                    <FormMessage />
+                  </FormItem>
+                )}
+              />
             </div>
 
             <Button type="submit">Submit</Button>
