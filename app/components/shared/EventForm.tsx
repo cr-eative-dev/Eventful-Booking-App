@@ -150,24 +150,52 @@ const EventForm = ({ userId, type }: EventFormProps) => {
               />
             </div>
 
-            <div className="flex flex-col gap-5 md:flex-row">
-              <FormField
-                control={form.control}
-                name="location"
-                render={({ field }) => (
-                  <FormItem className="w-full">
-                    <FormControl>
-                      <div className="flex-center h-[54px] w-full overflow-hidden  gap-2">
-                        <p className="ml-3 whitespace-nowrap text-gray-600">
-                          Start Date:
-                        </p>
-                        <DatePicker />
-                      </div>
-                    </FormControl>
-                    <FormMessage />
-                  </FormItem>
-                )}
-              />
+            <div className="flex flex-col w-full md:flex-row">
+              <div className=" w-full flex flex-col gap-5 md:flex-row">
+                <FormField
+                  control={form.control}
+                  name="startDateTime"
+                  render={({ field }) => (
+                    <FormItem className="w-full">
+                      <FormControl>
+                        <div className="flex-center h-[54px] w-full overflow-hidden  gap-2">
+                          <p className="ml-3 whitespace-nowrap text-gray-600">
+                            Start Date:
+                          </p>
+                          <DatePicker
+                            selected={field.value}
+                            onSelect={(date: Date) => field.onChange(date)}
+                          />
+                        </div>
+                      </FormControl>
+                      <FormMessage />
+                    </FormItem>
+                  )}
+                />
+              </div>
+
+              <div className="w-full flex flex-col gap-5 md:flex-row">
+                <FormField
+                  control={form.control}
+                  name="endDateTime"
+                  render={({ field }) => (
+                    <FormItem className="w-full">
+                      <FormControl>
+                        <div className="flex-center h-[54px] w-full overflow-hidden  gap-2">
+                          <p className="ml-3 whitespace-nowrap text-gray-600">
+                            End Date:
+                          </p>
+                          <DatePicker
+                            selected={field.value}
+                            onSelect={(date: Date) => field.onChange(date)}
+                          />
+                        </div>
+                      </FormControl>
+                      <FormMessage />
+                    </FormItem>
+                  )}
+                />
+              </div>
             </div>
 
             <Button type="submit">Submit</Button>
