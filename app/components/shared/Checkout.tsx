@@ -1,7 +1,16 @@
-import React from "react";
+import { IEvent } from "@/lib/database/mongoDB/models/event.model";
+import { useEffect } from "react";
 
-const Checkout = () => {
-  return <div>Checkout</div>;
+const Checkout = ({ event, userId }: { event: IEvent; userId: string }) => {
+  useEffect(() => {
+   
+  }, []);
+
+  
+
+  return (
+    <p>test</p>
+  );
 };
 
 export default Checkout;
