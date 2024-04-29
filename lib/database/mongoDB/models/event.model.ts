@@ -24,29 +24,31 @@ const EventSchema = new Schema({
   },
   description: {
     type: String,
+    required: true,
   },
   location: {
     type: String,
+    required: true,
   },
   createdAt: {
     type: Date,
     default: Date.now,
+    required: true,
   },
   imageUrl: {
     type: String,
-    requiered: true,
+    required: true,
   },
   startDateTime: {
     type: Date,
-    requiered: true,
+    required: true,
   },
   endDateTime: {
     type: Date,
-    requiered: true,
+    required: true,
   },
   price: {
     type: Number,
-    requiered: true,
   },
   isFree: {
     type: Boolean,
