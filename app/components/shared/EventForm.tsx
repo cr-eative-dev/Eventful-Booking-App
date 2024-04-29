@@ -266,8 +266,13 @@ const EventForm = ({ userId, type, event, eventId }: EventFormProps) => {
                   <FormItem className="w-full">
                     <FormControl>
                       <div className="flex-center h-[54px] w-full overflow-hidden  gap-2">
-                        <CircleDollarSign />
-                        <Input type="number" placeholder="Price" {...field} />
+                        <CircleDollarSign className="flex-none" />
+                        <Input
+                          className="grow"
+                          type="number"
+                          placeholder="Price"
+                          {...field}
+                        />
                         <FormField
                           control={form.control}
                           name="isFree"
