@@ -24,7 +24,7 @@ import { MapPin } from "lucide-react";
 import { DatePicker } from "./DatePicker";
 import { Checkbox } from "@/components/ui/checkbox";
 import { Link } from "lucide-react";
-import { CircleDollarSign } from "lucide-react";
+import { CircleDollarSign, CalendarCheck2, CalendarX2 } from "lucide-react";
 import { useRouter } from "next/navigation";
 import { useUploadThing } from "@/lib/uploadthing";
 import { createEvent, updateEvent } from "@/lib/actions/event.actions";
@@ -214,19 +214,18 @@ const EventForm = ({ userId, type, event, eventId }: EventFormProps) => {
               />
             </div>
 
-            <div className=" w-full flex flex-col gap-5 md:flex-row">
+            <div className=" w-full flex flex-col md:flex-row gap-5">
               <FormField
                 control={form.control}
                 name="startDateTime"
                 render={({ field }) => (
-                  <FormItem className="w-full">
-                    <FormControl>
-                      <div className="flex-center h-[54px] w-full overflow-hidden  gap-2">
-                        <p className="ml-3 whitespace-nowrap text-gray-600">
-                          Start Date:
-                        </p>
+                  <FormItem>
+                    <FormControl className="flex items-center gap-2">
+                      <div className=" h-[54px]">
+                        <CalendarCheck2 />
                         <DatePicker
                           selected={field.value}
+                          span={"Pick a start date"}
                           onSelect={(date: Date) => field.onChange(date)}
                         />
                       </div>
@@ -240,13 +239,12 @@ const EventForm = ({ userId, type, event, eventId }: EventFormProps) => {
                 control={form.control}
                 name="endDateTime"
                 render={({ field }) => (
-                  <FormItem className="w-full">
-                    <FormControl>
-                      <div className="flex-center h-[54px] w-full overflow-hidden  gap-2">
-                        <p className="ml-3 whitespace-nowrap text-gray-600">
-                          End Date:
-                        </p>
+                  <FormItem>
+                    <FormControl className="flex items-center gap-2">
+                      <div className="h-[54px]">
+                        <CalendarX2 />
                         <DatePicker
+                          span="Pick an end date"
                           selected={field.value}
                           onSelect={(date: Date) => field.onChange(date)}
                         />
@@ -270,7 +268,7 @@ const EventForm = ({ userId, type, event, eventId }: EventFormProps) => {
                         <Input
                           className="grow"
                           type="number"
-                          placeholder="Price"
+                          placeholder="Price in USD"
                           {...field}
                         />
                         <FormField
