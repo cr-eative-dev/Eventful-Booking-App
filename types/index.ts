@@ -26,7 +26,7 @@ export type CreateEventParams = {
     startDateTime: Date;
     endDateTime: Date;
     categoryId: string;
-    price: string;
+    price: number;
     isFree: boolean;
     url: string;
   };
@@ -44,7 +44,7 @@ export type UpdateEventParams = {
     startDateTime: Date;
     endDateTime: Date;
     categoryId: string;
-    price: string;
+    price: number;
     isFree: boolean;
     url: string;
   };
@@ -80,7 +80,7 @@ export type Event = {
   _id: string;
   title: string;
   description: string;
-  price: string;
+  price: number;
   isFree: boolean;
   imageUrl: string;
   location: string;
@@ -108,7 +108,7 @@ export type CreateCategoryParams = {
 export type CheckoutOrderParams = {
   eventTitle: string;
   eventId: string;
-  price: string;
+  price: number;
   isFree: boolean;
   buyerId: string;
 };

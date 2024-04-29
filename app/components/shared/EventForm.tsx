@@ -18,12 +18,9 @@ import { Input } from "@/components/ui/input";
 import { eventFormSchema } from "@/lib/validator";
 import Dropdown from "./Dropdown";
 import { Textarea } from "@/components/ui/textarea";
-import { FileUp } from "lucide-react";
 import { FileUploader } from "./FileUploader";
 import { useState } from "react";
-import Image from "next/image";
 import { MapPin } from "lucide-react";
-import { Calendar } from "lucide-react";
 import { DatePicker } from "./DatePicker";
 import { Checkbox } from "@/components/ui/checkbox";
 import { Link } from "lucide-react";
@@ -31,12 +28,16 @@ import { CircleDollarSign } from "lucide-react";
 import { useRouter } from "next/navigation";
 import { useUploadThing } from "@/lib/uploadthing";
 import { createEvent, updateEvent } from "@/lib/actions/event.actions";
+import { IEvent } from "@/lib/database/mongoDB/models/event.model";
 
 type EventFormProps = {
   userId: string;
   type: "Create" | "Update";
+  event?: IEvent;
+  eventId?: string;
 };
-const EventForm = ({ userId, type }: EventFormProps) => {
+
+const EventForm = ({ userId, type, event, eventId }: EventFormProps) => {
   const [files, setFiles] = useState<File[]>([]);
 
   const initialValues =
@@ -74,7 +75,7 @@ const EventForm = ({ userId, type }: EventFormProps) => {
         const newEvent = await createEvent({
           event: { ...values, imageUrl: uploadedImageUrl },
           userId,
-          path: "/profile",
+          path: "/dashboard",
         });
 
         if (newEvent) {
