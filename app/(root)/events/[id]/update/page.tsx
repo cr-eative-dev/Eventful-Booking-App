@@ -4,9 +4,7 @@ import * as z from "zod";
 
 const UpdateEvent = () => {
   const { sessionClaims } = auth();
-  const userId = sessionClaims.userId as string;
-
-
+  const userId = sessionClaims?.userId as string;
 
   return (
     <>
