@@ -94,9 +94,9 @@ const EventDetails = async ({
               </p>
             </div>
 
-            <p className="p-medium-14 italic text-left mt-2 sm:mt-0">
-              Event added by{" "}
-              <span className="text-primary-500">
+            <p className="text-left mt-2 sm:mt-0">
+              Event organized by{" "}
+              <span className="text-primary-500 font-bold">
                 {event.organizer.firstName} {event.organizer.lastName}
               </span>
             </p>
