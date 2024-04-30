@@ -6,7 +6,7 @@ import Link from "next/link";
 import React from "react";
 import { DeleteConfirmation } from "./DeleteConfirmation";
 import { Pencil } from "lucide-react";
-import { CornerDownRight } from "lucide-react";
+import { CornerDownRight, FilePenLine, ArrowUpRight } from "lucide-react";
 
 type CardProps = {
   event: IEvent;
@@ -31,7 +31,7 @@ const Card = ({ event, hasOrderLink, hidePrice }: CardProps) => {
       {isEventCreator && !hidePrice && (
         <div className="absolute right-2 top-2 flex flex-col gap-4 rounded-xl bg-white p-3 shadow-sm transition-all">
           <Link href={`/events/${event._id}/update`}>
-            <Pencil />
+            <FilePenLine />
           </Link>
 
           <DeleteConfirmation eventId={event._id} />
@@ -68,7 +68,7 @@ const Card = ({ event, hasOrderLink, hidePrice }: CardProps) => {
           {hasOrderLink && (
             <Link href={`/orders?eventId=${event._id}`} className="flex gap-2">
               <p className="text-primary-500">Order Details</p>
-              <CornerDownRight />
+              <ArrowUpRight />
             </Link>
           )}
         </div>
