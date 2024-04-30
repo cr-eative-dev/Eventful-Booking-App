@@ -104,11 +104,10 @@ const EventDetails = async ({
         </div>
       </section>
 
-      {/* EVENTS with the same category */}
       <section className="wrapper my-8 flex flex-col gap-8 md:gap-12">
         <h2 className="h3-bold">Related Events</h2>
 
-        {/* <Collection
+        <Collection
           data={relatedEvents?.data}
           emptyTitle="No Events Found"
           emptyStateSubtext="Come back later"
@@ -116,7 +115,7 @@ const EventDetails = async ({
           limit={3}
           page={searchParams.page as string}
           totalPages={relatedEvents?.totalPages}
-        /> */}
+        />
       </section>
     </>
   );
