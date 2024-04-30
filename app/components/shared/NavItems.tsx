@@ -21,7 +21,10 @@ const NavItems = (props: any) => {
               isActive && "text-primary-500"
             } flex-center p-medium-16 whitespace-nowrap`}
           >
-            <Link href={link.route} onClick={() => props.setOpen(false)}>
+            <Link
+              href={link.route}
+              onClick={props.setOpen ? () => props.setOpen(false) : () => {}}
+            >
               {link.label}
             </Link>
           </li>
