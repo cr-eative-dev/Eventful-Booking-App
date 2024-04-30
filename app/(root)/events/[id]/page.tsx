@@ -40,24 +40,17 @@ const EventDetails = async ({
 
           <div className="flex w-full flex-col gap-8 p-5 md:p-10">
             <div className="flex flex-col gap-6">
-              <h2 className="h2-bold">{event.title}</h2>
+              <h2 className="h3-bold text-left">{event.title}</h2>
 
               <div className="flex flex-col gap-3 sm:flex-row sm:items-center">
                 <div className="flex gap-3">
-                  <p className="p-bold-20 rounded-full bg-gray-500/10 px-5 py-2 text-gray-700">
+                  <p className="p-bold-20 rounded-full px-5 py-2 text-white bg-black dark:bg-white dark:text-black">
                     {event.isFree ? "FREE" : `$${event.price}`}
                   </p>
                   <p className="p-medium-16 rounded-full bg-grey-500/10 px-4 py-2.5 text-grey-500">
                     {event.category.name}
                   </p>
                 </div>
-
-                {/* <p className="p-medium-16 ml-2 mt-2 sm:mt-0">
-                  Event added by{" "}
-                  <span className="text-primary-500">
-                    {event.organizer.firstName} {event.organizer.lastName}
-                  </span>
-                </p> */}
               </div>
             </div>
 
@@ -65,16 +58,21 @@ const EventDetails = async ({
 
             <div className="flex flex-col gap-5">
               <div className="flex gap-2 md:gap-3">
-                <CalendarCheck2 />
-                <div className="p-medium-16 lg:p-regular-20 flex flex-wrap items-center">
-                  <p>
-                    {formatDateTime(event.startDateTime).dateOnly} -{" "}
-                    {formatDateTime(event.startDateTime).timeOnly}
-                  </p>
-                  <p>
-                    {formatDateTime(event.endDateTime).dateOnly} -{" "}
-                    {formatDateTime(event.endDateTime).timeOnly}
-                  </p>
+                <div className="p-medium-16 lg:p-regular-20 flex flex-wrap items-center gap-3">
+                  <div className="flex gap-3">
+                    <CalendarCheck2 />
+                    <p>
+                      {formatDateTime(event.startDateTime).dateOnly} -{" "}
+                      {formatDateTime(event.startDateTime).timeOnly}
+                    </p>
+                  </div>
+                  <div className="flex gap-3">
+                    <CalendarX2 />
+                    <p>
+                      {formatDateTime(event.endDateTime).dateOnly} -{" "}
+                      {formatDateTime(event.endDateTime).timeOnly}
+                    </p>
+                  </div>
                 </div>
               </div>
 
@@ -85,7 +83,9 @@ const EventDetails = async ({
             </div>
 
             <div className="flex flex-col gap-2">
-              <p className="p-bold-20 text-grey-600">What You'll Learn:</p>
+              <p className="p-bold-20 text-grey-600">
+                Information about the event:
+              </p>
               <p className="p-regular-16 lg:p-regular-18">
                 {event.description}
               </p>
@@ -106,7 +106,7 @@ const EventDetails = async ({
 
       {/* EVENTS with the same category */}
       <section className="wrapper my-8 flex flex-col gap-8 md:gap-12">
-        <h2 className="h2-bold">Related Events</h2>
+        <h2 className="h3-bold">Related Events</h2>
 
         {/* <Collection
           data={relatedEvents?.data}
