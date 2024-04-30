@@ -21,7 +21,7 @@ import { Textarea } from "@/components/ui/textarea";
 import { FileUploader } from "./FileUploader";
 import { useState } from "react";
 import { MapPin } from "lucide-react";
-import { DatePicker } from "./DatePicker";
+// import { DatePicker } from "./DatePicker";
 import { Checkbox } from "@/components/ui/checkbox";
 import { Link } from "lucide-react";
 import { CircleDollarSign, CalendarCheck2, CalendarX2 } from "lucide-react";
@@ -29,6 +29,9 @@ import { useRouter } from "next/navigation";
 import { useUploadThing } from "@/lib/uploadthing";
 import { createEvent, updateEvent } from "@/lib/actions/event.actions";
 import { IEvent } from "@/lib/database/mongoDB/models/event.model";
+
+import DatePicker from "react-datepicker";
+import "react-datepicker/dist/react-datepicker.css";
 
 type EventFormProps = {
   userId: string;
@@ -39,6 +42,7 @@ type EventFormProps = {
 
 const EventForm = ({ userId, type, event, eventId }: EventFormProps) => {
   const [files, setFiles] = useState<File[]>([]);
+  const [startDate, setStartDate] = useState(new Date());
 
   const initialValues =
     event && type === "Update"
@@ -226,7 +230,11 @@ const EventForm = ({ userId, type, event, eventId }: EventFormProps) => {
                         <DatePicker
                           selected={field.value}
                           span={"Pick a start date"}
-                          onSelect={(date: Date) => field.onChange(date)}
+                          onChange={(date: Date) => field.onChange(date)}
+                          showTimeSelect
+                          timeInputLabel="Time:"
+                          dateFormat="MM/dd/yyyy hh:mm aa"
+                          wrapperClassName="datePicker"
                         />
                       </div>
                     </FormControl>
@@ -246,7 +254,11 @@ const EventForm = ({ userId, type, event, eventId }: EventFormProps) => {
                         <DatePicker
                           span="Pick an end date"
                           selected={field.value}
-                          onSelect={(date: Date) => field.onChange(date)}
+                          onChange={(date: Date) => field.onChange(date)}
+                          showTimeSelect
+                          timeInputLabel="Time:"
+                          dateFormat="MM/dd/yyyy hh:mm aa"
+                          wrapperClassName="datePicker"
                         />
                       </div>
                     </FormControl>
