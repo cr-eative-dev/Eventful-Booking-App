@@ -53,7 +53,7 @@ const CategoryFilter = () => {
         <SelectValue placeholder="Category" />
       </SelectTrigger>
       <SelectContent>
-        <SelectItem value="All" className="select-item p-regular-14">
+        <SelectItem value="All" className="select-item">
           All
         </SelectItem>
 
@@ -61,7 +61,7 @@ const CategoryFilter = () => {
           <SelectItem
             value={category.name}
             key={category._id}
-            className="select-item p-regular-14"
+            className="select-item"
           >
             {category.name}
           </SelectItem>
