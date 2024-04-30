@@ -224,9 +224,9 @@ const EventForm = ({ userId, type, event, eventId }: EventFormProps) => {
                 name="startDateTime"
                 render={({ field }) => (
                   <FormItem>
-                    <FormControl className="flex items-center gap-2">
+                    <FormControl className="flex items-center">
                       <div className=" h-[54px]">
-                        <CalendarCheck2 />
+                        <CalendarCheck2 className="mr-2" />
                         <DatePicker
                           selected={field.value}
                           span={"Pick a start date"}
@@ -249,9 +249,9 @@ const EventForm = ({ userId, type, event, eventId }: EventFormProps) => {
                 name="endDateTime"
                 render={({ field }) => (
                   <FormItem>
-                    <FormControl className="flex items-center gap-2">
+                    <FormControl className="flex items-center">
                       <div className="h-[54px]">
-                        <CalendarX2 />
+                        <CalendarX2 className="mr-2" />
                         <DatePicker
                           span="Pick an end date"
                           selected={field.value}
