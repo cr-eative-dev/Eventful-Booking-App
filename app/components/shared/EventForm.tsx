@@ -342,7 +342,7 @@ const EventForm = ({ userId, type, event, eventId }: EventFormProps) => {
               type="submit"
               size="lg"
               disabled={form.formState.isSubmitting}
-              className="w-full"
+              className="w-full bg-lime-400 hover:bg-lime-500 text-black"
             >
               {form.formState.isSubmitting ? "Submitting..." : `${type} Event `}
             </Button>
