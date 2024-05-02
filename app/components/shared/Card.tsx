@@ -21,7 +21,7 @@ const Card = ({ event, hasOrderLink, hidePrice }: CardProps) => {
   const isEventCreator = userId === event.organizer._id.toString();
 
   return (
-    <div className="group relative flex min-h-[380px] w-full max-w-[400px] flex-col overflow-hidden rounded-xl bg-white shadow-md transition-all hover:shadow-lg md:min-h-[438px]">
+    <div className="group relative flex min-h-[380px] w-full max-w-[400px] flex-col overflow-hidden rounded-xl bg-white dark:bg-black shadow-md transition-all hover:shadow-lg md:min-h-[438px] dark:border-2">
       <Link
         href={`/events/${event._id}`}
         style={{ backgroundImage: `url(${event.imageUrl})` }}
@@ -40,11 +40,11 @@ const Card = ({ event, hasOrderLink, hidePrice }: CardProps) => {
 
       <div className="flex min-h-[230px] flex-col gap-3 p-5 md:gap-4">
         {!hidePrice && (
-          <div className="flex gap-2">
-            <span className="p-semibold-14 w-min rounded-full bg-green-100 px-4 py-1 text-green-60">
+          <div className="flex gap-2 items-center">
+            <span className="p-semibold-14 w-min rounded-full bg-lime-400 dark:text-black px-4 py-1 text-green-60">
               {event.isFree ? "FREE" : `$${event.price}`}
             </span>
-            <p className="p-semibold-14 w-min rounded-full bg-grey-500/10 px-4 py-1 text-grey-500 line-clamp-1">
+            <p className="p-semibold-14 rounded-full border-2 bg-grey-500/10 px-4 py-1 text-grey-500 ">
               {event.category.name}
             </p>
           </div>
@@ -55,7 +55,7 @@ const Card = ({ event, hasOrderLink, hidePrice }: CardProps) => {
         </p>
 
         <Link href={`/events/${event._id}`}>
-          <p className="p-medium-16 md:p-medium-20 line-clamp-2 flex-1 text-black">
+          <p className="p-medium-16 md:p-medium-20 line-clamp-2 flex-1 text-black dark:text-white">
             {event.title}
           </p>
         </Link>
