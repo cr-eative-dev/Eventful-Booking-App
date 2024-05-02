@@ -20,7 +20,7 @@ const UpdateEvent = async ({ params: { id } }: UpdateEventProps) => {
     <>
       <section className="bg-primary-50 bg-dotted-pattern bg-cover bg-center py-5 md:py-10">
         <h3 className="wrapper h3-bold text-center sm:text-left">
-          Update Event
+          <span className="highlightBrush_1 dark:text-black">Update Event</span>
         </h3>
       </section>
 
