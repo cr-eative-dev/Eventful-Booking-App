@@ -29,9 +29,9 @@ const Card = ({ event, hasOrderLink, hidePrice }: CardProps) => {
       />
 
       {isEventCreator && !hidePrice && (
-        <div className="absolute right-2 top-2 flex flex-col gap-4 rounded-xl bg-white p-3 shadow-sm transition-all">
+        <div className="absolute right-2 top-2 flex flex-col gap-4 rounded-xl bg-white bg-opacity-75 p-3 shadow-sm transition-all dark:bg-black dark:bg-opacity-75">
           <Link href={`/events/${event._id}/update`}>
-            <FilePenLine />
+            <FilePenLine className="transition duration-500 hover:scale-110" />
           </Link>
 
           <DeleteConfirmation eventId={event._id} />
