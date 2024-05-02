@@ -24,7 +24,7 @@ const NavItems = (props: any) => {
           >
             <Button
               variant="outline"
-              className="hover:bg-lime-400 hover:text-black"
+              className="hover:bg-neongreen hover:text-black"
             >
               <Link
                 href={link.route}

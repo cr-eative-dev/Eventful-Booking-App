@@ -39,7 +39,7 @@ export default async function Home({ searchParams }: SearchParamProps) {
               variant="outline"
               size="lg"
               asChild
-              className="button w-full hover:bg-lime-400 hover:text-black sm:w-fit"
+              className="button w-full hover:bg-neongreen hover:text-black sm:w-fit"
             >
               <Link href="#events">Take me to the events</Link>
             </Button>
