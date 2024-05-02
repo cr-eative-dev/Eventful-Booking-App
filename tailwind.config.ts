@@ -24,6 +24,7 @@ module.exports = withUt({
         tanmeringue: ["var(--font-tanmeringue)"],
       },
       colors: {
+        neongreen: "#C6FF00",
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
