@@ -1,0 +1,197 @@
+[
+  {
+    "_id": {
+      "$oid": "6646a501000eb1341a3b12b4"
+    },
+    "title": "Tech Expo: Exploring Future Technologies",
+    "description": "Dive into the world of technology and innovation at our tech expo in Berlin! Explore cutting-edge gadgets, robotics, artificial intelligence, and more. Engage with industry experts, attend workshops, and discover the possibilities of tomorrow's technology today.",
+    "location": "Berlin - Germany",
+    "imageUrl": "06-01-tech-expo-berlin.jpg",
+    "startDateTime": {
+      "$date": {
+        "$numberLong": "1732561600000"
+      }
+    },
+    "endDateTime": {
+      "$date": {
+        "$numberLong": "1732734400000"
+      }
+    },
+    "price": {
+      "$numberInt": "50"
+    },
+    "isFree": false,
+    "url": "https://eventful-jade.vercel.app/",
+    "category": {
+      "$oid": "6633c9a4552b7fe05d0085f3"
+    },
+    "organizer": {
+      "$oid": "662b6a1ea1a18c8afa5efffd"
+    },
+    "attendees": [],
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1746428821000"
+      }
+    },
+    "__v": {
+      "$numberInt": "0"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6646a501000eb1341a3b12b5"
+    },
+    "title": "Startup Pitch Competition: Unleashing Entrepreneurial Talent",
+    "description": "Witness the future of entrepreneurship unfold at our startup pitch competition in Munich! Cheer on aspiring entrepreneurs as they pitch their innovative ideas to a panel of judges and compete for funding and recognition. Be inspired by creativity, ingenuity, and passion!",
+    "location": "Munich - Germany",
+    "imageUrl": "06-02-startup-pitch-competition-munich.jpg",
+    "startDateTime": {
+      "$date": {
+        "$numberLong": "1735324000000"
+      }
+    },
+    "endDateTime": {
+      "$date": {
+        "$numberLong": "1735339200000"
+      }
+    },
+    "price": {
+      "$numberInt": "25"
+    },
+    "isFree": false,
+    "url": "https://eventful-jade.vercel.app/",
+    "category": {
+      "$oid": "6633c9a4552b7fe05d0085f3"
+    },
+    "organizer": {
+      "$oid": "662b6a1ea1a18c8afa5efffd"
+    },
+    "attendees": [],
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1746428821000"
+      }
+    },
+    "__v": {
+      "$numberInt": "0"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6646a501000eb1341a3b12b6"
+    },
+    "title": "AI and Machine Learning Workshop: Building Smart Solutions",
+    "description": "Dive deep into the world of artificial intelligence and machine learning at our workshop in Frankfurt! Learn practical skills and techniques for developing smart solutions and harnessing the power of AI to drive innovation and solve complex problems.",
+    "location": "Frankfurt - Germany",
+    "imageUrl": "06-03-ai-machine-learning-workshop-frankfurt.jpg",
+    "startDateTime": {
+      "$date": {
+        "$numberLong": "1736546400000"
+      }
+    },
+    "endDateTime": {
+      "$date": {
+        "$numberLong": "1736582400000"
+      }
+    },
+    "price": {
+      "$numberInt": "100"
+    },
+    "isFree": false,
+    "url": "https://eventful-jade.vercel.app/",
+    "category": {
+      "$oid": "6633c9a4552b7fe05d0085f3"
+    },
+    "organizer": {
+      "$oid": "662b6a1ea1a18c8afa5efffd"
+    },
+    "attendees": [],
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1746428821000"
+      }
+    },
+    "__v": {
+      "$numberInt": "0"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6646a501000eb1341a3b12b7"
+    },
+    "title": "Virtual Reality Experience: Immersive Adventures",
+    "description": "Step into the world of virtual reality and embark on immersive adventures from the comfort of your home! Explore virtual worlds, interact with lifelike simulations, and experience the future of entertainment and gaming like never before.",
+    "location": "Online",
+    "imageUrl": "06-04-virtual-reality-experience-online.jpg",
+    "startDateTime": {
+      "$date": {
+        "$numberLong": "1740309600000"
+      }
+    },
+    "endDateTime": {
+      "$date": {
+        "$numberLong": "1740396000000"
+      }
+    },
+    "price": {
+      "$numberInt": "0"
+    },
+    "isFree": true,
+    "url": "https://eventful-jade.vercel.app/",
+    "category": {
+      "$oid": "6633c9a4552b7fe05d0085f3"
+    },
+    "organizer": {
+      "$oid": "662b6a1ea1a18c8afa5efffd"
+    },
+    "attendees": [],
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1746428821000"
+      }
+    },
+    "__v": {
+      "$numberInt": "0"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6646a501000eb1341a3b12b8"
+    },
+    "title": "Tech for Good Symposium: Innovating for a Better World",
+    "description": "Join us for a symposium on technology for social impact and explore how innovation can be a force for good in the world! Engage with thought leaders, industry experts, and changemakers as we discuss pressing global challenges and innovative solutions.",
+    "location": "Cologne - Germany",
+    "imageUrl": "06-05-tech-for-good-symposium-cologne.jpg",
+    "startDateTime": {
+      "$date": {
+        "$numberLong": "1742337600000"
+      }
+    },
+    "endDateTime": {
+      "$date": {
+        "$numberLong": "1742362800000"
+      }
+    },
+    "price": {
+      "$numberInt": "0"
+    },
+    "isFree": true,
+    "url": "https://eventful-jade.vercel.app/",
+    "category": {
+      "$oid": "6633c9a4552b7fe05d0085f3"
+    },
+    "organizer": {
+      "$oid": "662b6a1ea1a18c8afa5efffd"
+    },
+    "attendees": [],
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1746428821000"
+      }
+    },
+    "__v": {
+      "$numberInt": "0"
+    }
+  }
+]

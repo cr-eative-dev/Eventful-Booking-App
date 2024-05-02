@@ -1,0 +1,197 @@
+[
+  {
+    "_id": {
+      "$oid": "664e9c511d0861e28a85d25b"
+    },
+    "title": "Marathon: Run for a Cause",
+    "description": "Lace up your running shoes and join us for a marathon in Berlin! Whether you're a seasoned runner or just starting out, this event is for you. Run for a cause and support local charities while enjoying the thrill of competition and camaraderie.",
+    "location": "Berlin - Germany",
+    "imageUrl": "09-01-marathon-berlin.jpg",
+    "startDateTime": {
+      "$date": {
+        "$numberLong": "1737823200000"
+      }
+    },
+    "endDateTime": {
+      "$date": {
+        "$numberLong": "1737844000000"
+      }
+    },
+    "price": {
+      "$numberInt": "35"
+    },
+    "isFree": false,
+    "url": "https://eventful-jade.vercel.app/",
+    "category": {
+      "$oid": "6633ca3b6dc6def64cfa3c54"
+    },
+    "organizer": {
+      "$oid": "662b6a1ea1a18c8afa5efffd"
+    },
+    "attendees": [],
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1735005897000"
+      }
+    },
+    "__v": {
+      "$numberInt": "0"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "664e9c6d1d0861e28a85d25c"
+    },
+    "title": "Yoga in the Park: Find Your Zen",
+    "description": "Connect with nature and rejuvenate your mind, body, and spirit at our yoga event in Munich! Join us for a relaxing session in the park, suitable for all levels. Bring your yoga mat and embrace the tranquility of outdoor practice.",
+    "location": "Munich - Germany",
+    "imageUrl": "09-02-yoga-park-munich.jpg",
+    "startDateTime": {
+      "$date": {
+        "$numberLong": "1739252400000"
+      }
+    },
+    "endDateTime": {
+      "$date": {
+        "$numberLong": "1739257000000"
+      }
+    },
+    "price": {
+      "$numberInt": "0"
+    },
+    "isFree": true,
+    "url": "https://eventful-jade.vercel.app/",
+    "category": {
+      "$oid": "6633ca3b6dc6def64cfa3c54"
+    },
+    "organizer": {
+      "$oid": "662b6a1ea1a18c8afa5efffd"
+    },
+    "attendees": [],
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1735005925000"
+      }
+    },
+    "__v": {
+      "$numberInt": "0"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "664e9c8b1d0861e28a85d25d"
+    },
+    "title": "Soccer Tournament: Battle of the Champions",
+    "description": "Get ready for an exhilarating soccer tournament in Hamburg! Gather your team and compete against others for the title of champion. Enjoy a weekend of thrilling matches, teamwork, and friendly competition in a vibrant atmosphere.",
+    "location": "Hamburg - Germany",
+    "imageUrl": "09-03-soccer-tournament-hamburg.jpg",
+    "startDateTime": {
+      "$date": {
+        "$numberLong": "1740169200000"
+      }
+    },
+    "endDateTime": {
+      "$date": {
+        "$numberLong": "1740255600000"
+      }
+    },
+    "price": {
+      "$numberInt": "50"
+    },
+    "isFree": false,
+    "url": "https://eventful-jade.vercel.app/",
+    "category": {
+      "$oid": "6633ca3b6dc6def64cfa3c54"
+    },
+    "organizer": {
+      "$oid": "662b6a1ea1a18c8afa5efffd"
+    },
+    "attendees": [],
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1735005955000"
+      }
+    },
+    "__v": {
+      "$numberInt": "0"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "664e9caa1d0861e28a85d25e"
+    },
+    "title": "Cycling Tour: Explore the Countryside",
+    "description": "Embark on a scenic cycling tour and discover the beauty of the countryside around Cologne! Pedal through picturesque landscapes, quaint villages, and serene trails. Whether you're a casual rider or a cycling enthusiast, this tour offers something for everyone.",
+    "location": "Cologne - Germany",
+    "imageUrl": "09-04-cycling-tour-cologne.jpg",
+    "startDateTime": {
+      "$date": {
+        "$numberLong": "1740900000000"
+      }
+    },
+    "endDateTime": {
+      "$date": {
+        "$numberLong": "1740936000000"
+      }
+    },
+    "price": {
+      "$numberInt": "25"
+    },
+    "isFree": false,
+    "url": "https://eventful-jade.vercel.app/",
+    "category": {
+      "$oid": "6633ca3b6dc6def64cfa3c54"
+    },
+    "organizer": {
+      "$oid": "662b6a1ea1a18c8afa5efffd"
+    },
+    "attendees": [],
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1735005986000"
+      }
+    },
+    "__v": {
+      "$numberInt": "0"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "664e9cce1d0861e28a85d25f"
+    },
+    "title": "Swimming Challenge: Conquer the Waves",
+    "description": "Dive into adventure and take on our swimming challenge in Frankfurt! Test your endurance and swim skills as you conquer the waves. Whether you're a beginner or a seasoned swimmer, this event promises excitement and a sense of accomplishment.",
+    "location": "Frankfurt - Germany",
+    "imageUrl": "09-05-swimming-challenge-frankfurt.jpg",
+    "startDateTime": {
+      "$date": {
+        "$numberLong": "1742334000000"
+      }
+    },
+    "endDateTime": {
+      "$date": {
+        "$numberLong": "1742355200000"
+      }
+    },
+    "price": {
+      "$numberInt": "20"
+    },
+    "isFree": false,
+    "url": "https://eventful-jade.vercel.app/",
+    "category": {
+      "$oid": "6633ca3b6dc6def64cfa3c54"
+    },
+    "organizer": {
+      "$oid": "662b6a1ea1a18c8afa5efffd"
+    },
+    "attendees": [],
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1735006014000"
+      }
+    },
+    "__v": {
+      "$numberInt": "0"
+    }
+  }
+]

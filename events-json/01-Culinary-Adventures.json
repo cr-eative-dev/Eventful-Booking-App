@@ -1,0 +1,198 @@
+
+[
+  {
+    "_id": {
+      "$oid": "664e9dc41d0861e28a85d265"
+    },
+    "title": "German Beer Tasting: Brews of Bavaria",
+    "description": "Dive into the rich world of German beer with our Bavarian beer tasting event! Sample a variety of traditional brews and learn about the brewing process from expert brewers. Prost!",
+    "location": "Munich - Germany",
+    "imageUrl": "01-01-german-beer-tasting-munich.jpg",
+    "startDateTime": {
+      "$date": {
+        "$numberLong": "1738965600000"
+      }
+    },
+    "endDateTime": {
+      "$date": {
+        "$numberLong": "1738980000000"
+      }
+    },
+    "price": {
+      "$numberInt": "50"
+    },
+    "isFree": false,
+    "url": "https://eventful-jade.vercel.app/",
+    "category": {
+      "$oid": "6633c96a552b7fe05d0085f2"
+    },
+    "organizer": {
+      "$oid": "662b6a1ea1a18c8afa5efffd"
+    },
+    "attendees": [],
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1735006204000"
+      }
+    },
+    "__v": {
+      "$numberInt": "0"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "664e9de21d0861e28a85d266"
+    },
+    "title": "Chocolate Truffle Making Workshop",
+    "description": "Indulge your sweet tooth with our chocolate truffle making workshop in Cologne! Learn the art of crafting decadent chocolate truffles from scratch and savor the rich flavors of premium chocolate. A deliciously fun experience for chocolate lovers!",
+    "location": "Cologne - Germany",
+    "imageUrl": "01-02-chocolate-truffle-workshop-cologne.jpg",
+    "startDateTime": {
+      "$date": {
+        "$numberLong": "1738777200000"
+      }
+    },
+    "endDateTime": {
+      "$date": {
+        "$numberLong": "1738796400000"
+      }
+    },
+    "price": {
+      "$numberInt": "70"
+    },
+    "isFree": false,
+    "url": "https://eventful-jade.vercel.app/",
+    "category": {
+      "$oid": "6633c96a552b7fe05d0085f2"
+    },
+    "organizer": {
+      "$oid": "662b6a1ea1a18c8afa5efffd"
+    },
+    "attendees": [],
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1735006242000"
+      }
+    },
+    "__v": {
+      "$numberInt": "0"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "664e9dfb1d0861e28a85d267"
+    },
+    "title": "Oktoberfest Feast: Authentic German Cuisine",
+    "description": "Celebrate Oktoberfest with an unforgettable feast of authentic German cuisine in Berlin! Enjoy classic dishes such as bratwurst, sauerkraut, and pretzels, paired with traditional German beers. Ein Prosit!",
+    "location": "Berlin - Germany",
+    "imageUrl": "01-03-oktoberfest-feast-berlin.jpg",
+    "startDateTime": {
+      "$date": {
+        "$numberLong": "1740976800000"
+      }
+    },
+    "endDateTime": {
+      "$date": {
+        "$numberLong": "1740991200000"
+      }
+    },
+    "price": {
+      "$numberInt": "80"
+    },
+    "isFree": false,
+    "url": "https://eventful-jade.vercel.app/",
+    "category": {
+      "$oid": "6633c96a552b7fe05d0085f2"
+    },
+    "organizer": {
+      "$oid": "662b6a1ea1a18c8afa5efffd"
+    },
+    "attendees": [],
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1735006267000"
+      }
+    },
+    "__v": {
+      "$numberInt": "0"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "664e9e131d0861e28a85d268"
+    },
+    "title": "Wine Tasting: Wines of the Rhine Valley",
+    "description": "Join our wine tasting event and explore the exquisite wines of the Rhine Valley from the comfort of your home! Guided by sommeliers, discover the unique characteristics of each wine and learn about the terroir of this renowned wine region.",
+    "location": "Rhine Valley - Germany",
+    "imageUrl": "01-04-wine-tasting-rhine-valley.jpg",
+    "startDateTime": {
+      "$date": {
+        "$numberLong": "1742311200000"
+      }
+    },
+    "endDateTime": {
+      "$date": {
+        "$numberLong": "1742318400000"
+      }
+    },
+    "price": {
+      "$numberInt": "60"
+    },
+    "isFree": false,
+    "url": "https://eventful-jade.vercel.app/",
+    "category": {
+      "$oid": "6633c96a552b7fe05d0085f2"
+    },
+    "organizer": {
+      "$oid": "662b6a1ea1a18c8afa5efffd"
+    },
+    "attendees": [],
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1735006291000"
+      }
+    },
+    "__v": {
+      "$numberInt": "0"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "664e9e2d1d0861e28a85d269"
+    },
+    "title": "Culinary Tour: Taste of Hamburg Street Food",
+    "description": "Embark on a culinary adventure through the streets of Hamburg and indulge in the city's vibrant street food scene! Sample a variety of local delicacies, from currywurst to fish sandwiches, as you explore the rich culinary heritage of Hamburg.",
+    "location": "Hamburg - Germany",
+    "imageUrl": "01-05-culinary-tour-hamburg-street-food.jpg",
+    "startDateTime": {
+      "$date": {
+        "$numberLong": "1744248000000"
+      }
+    },
+    "endDateTime": {
+      "$date": {
+        "$numberLong": "1744262400000"
+      }
+    },
+    "price": {
+      "$numberInt": "0"
+    },
+    "isFree": true,
+    "url": "https://eventful-jade.vercel.app/",
+    "category": {
+      "$oid": "6633c96a552b7fe05d0085f2"
+    },
+    "organizer": {
+      "$oid": "662b6a1ea1a18c8afa5efffd"
+    },
+    "attendees": [],
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1735006317000"
+      }
+    },
+    "__v": {
+      "$numberInt": "0"
+    }
+  }
+]

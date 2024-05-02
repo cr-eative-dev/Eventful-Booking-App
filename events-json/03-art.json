@@ -1,0 +1,198 @@
+
+[
+  {
+    "_id": {
+      "$oid": "664e9f391d0861e28a85d26a"
+    },
+    "title": "Rimberio Ban: Live Jazz Extravaganza",
+    "description": "Immerse yourself in an unforgettable evening of live jazz music with Rimberio Ban! Join us for an electrifying performance featuring soulful melodies and vibrant rhythms. Let the music transport you to new heights of musical bliss. Don't miss this sensational jazz experience!",
+    "location": "Düsseldorf - Germany",
+    "imageUrl": "03-01-live-jazz-music-rimberio-band.jpg",
+    "startDateTime": {
+      "$date": {
+        "$numberLong": "1732700400000"
+      }
+    },
+    "endDateTime": {
+      "$date": {
+        "$numberLong": "1732732800000"
+      }
+    },
+    "price": {
+      "$numberInt": "250"
+    },
+    "isFree": false,
+    "url": "https://eventful-jade.vercel.app/",
+    "category": {
+      "$oid": "66336cef31d1c3d5651bf050"
+    },
+    "organizer": {
+      "$oid": "662b6a1ea1a18c8afa5efffd"
+    },
+    "attendees": [],
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1735006393000"
+      }
+    },
+    "__v": {
+      "$numberInt": "0"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "664e9f4e1d0861e28a85d26b"
+    },
+    "title": "Art Festival Cologne 2024 at Messe Köln",
+    "description": "Dive into a kaleidoscope of creativity at Art Festival Cologne 2024, hosted at Messe Köln! Explore a vibrant showcase of contemporary art from around the globe, featuring innovative works across various mediums. Immerse yourself in a cultural extravaganza celebrating the boundless imagination of artists. Join us for an inspiring journey through the world of art!",
+    "location": "Cologne - Germany",
+    "imageUrl": "03-02-art-festival-2024.jpg",
+    "startDateTime": {
+      "$date": {
+        "$numberLong": "1741092000000"
+      }
+    },
+    "endDateTime": {
+      "$date": {
+        "$numberLong": "1741124400000"
+      }
+    },
+    "price": {
+      "$numberInt": "0"
+    },
+    "isFree": true,
+    "url": "https://eventful-jade.vercel.app/",
+    "category": {
+      "$oid": "66336cef31d1c3d5651bf050"
+    },
+    "organizer": {
+      "$oid": "662b6a1ea1a18c8afa5efffd"
+    },
+    "attendees": [],
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1735006414000"
+      }
+    },
+    "__v": {
+      "$numberInt": "0"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "664e9f621d0861e28a85d26c"
+    },
+    "title": "Digital Art Day 2024: Online Workshop",
+    "description": "Unleash your creativity on Friday, May 17th, with our Art Day 2024 online workshop! Join us for a day filled with interactive sessions led by talented artists. From painting to sculpture, explore a variety of techniques and mediums from the comfort of your home. Get ready to ignite your artistic spark and connect with fellow art enthusiasts worldwide. Don't miss out on this inspiring virtual experience!",
+    "location": "online",
+    "imageUrl": "03-03-art-day-2024.jpg",
+    "startDateTime": {
+      "$date": {
+        "$numberLong": "1741092000000"
+      }
+    },
+    "endDateTime": {
+      "$date": {
+        "$numberLong": "1741124400000"
+      }
+    },
+    "price": {
+      "$numberInt": "99"
+    },
+    "isFree": false,
+    "url": "https://eventful-jade.vercel.app/",
+    "category": {
+      "$oid": "66336cef31d1c3d5651bf050"
+    },
+    "organizer": {
+      "$oid": "662b6a1ea1a18c8afa5efffd"
+    },
+    "attendees": [],
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1735006434000"
+      }
+    },
+    "__v": {
+      "$numberInt": "0"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "664e9f7a1d0861e28a85d26d"
+    },
+    "title": "Melodies in the Garden: Aaron Loeb Live",
+    "description": "Enjoy music in the garden with Aaron Loeb's captivating performance. Join us for an enchanting evening filled with soulful tunes under the stars. Unwind in nature's embrace as melodies transport you to a realm of tranquility and joy.",
+    "location": "Berlin - Germany",
+    "imageUrl": "03-04-aaron-loeb-music-live-garden-festival",
+    "startDateTime": {
+      "$date": {
+        "$numberLong": "1732700400000"
+      }
+    },
+    "endDateTime": {
+      "$date": {
+        "$numberLong": "1732732800000"
+      }
+    },
+    "price": {
+      "$numberInt": "199"
+    },
+    "isFree": false,
+    "url": "https://eventful-jade.vercel.app/",
+    "category": {
+      "$oid": "66336cef31d1c3d5651bf050"
+    },
+    "organizer": {
+      "$oid": "662b6a1ea1a18c8afa5efffd"
+    },
+    "attendees": [],
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1735006462000"
+      }
+    },
+    "__v": {
+      "$numberInt": "0"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "664e9f8d1d0861e28a85d26e"
+    },
+    "title": "Celebrating Indonesian Heritage: Batik Day Workshop for Kids",
+    "description": "Celebrate Batik Day on October 2nd! Join our workshop where kids explore this traditional Indonesian art. They'll learn to apply wax and dye fabric, creating unique designs. An engaging cultural experience for young minds!",
+    "location": "Bonn - Germany",
+    "imageUrl": "03-05-batik-day-workshop-bonn.jpg",
+    "startDateTime": {
+      "$date": {
+        "$numberLong": "1741092000000"
+      }
+    },
+    "endDateTime": {
+      "$date": {
+        "$numberLong": "1741124400000"
+      }
+    },
+    "price": {
+      "$numberInt": "0"
+    },
+    "isFree": true,
+    "url": "https://eventful-jade.vercel.app/",
+    "category": {
+      "$oid": "66336cef31d1c3d5651bf050"
+    },
+    "organizer": {
+      "$oid": "662b6a1ea1a18c8afa5efffd"
+    },
+    "attendees": [],
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1735006485000"
+      }
+    },
+    "__v": {
+      "$numberInt": "0"
+    }
+  }
+]

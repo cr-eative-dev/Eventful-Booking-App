@@ -1,0 +1,197 @@
+[
+  {
+    "_id": {
+      "$oid": "664e9d021d0861e28a85d260"
+    },
+    "title": "Hiking Expedition: Summiting Majestic Peaks",
+    "description": "Embark on an unforgettable hiking expedition and conquer the majestic peaks of the Bavarian Alps! Explore breathtaking landscapes, lush forests, and panoramic views. Whether you're an experienced hiker or new to the trails, this adventure promises thrills and unforgettable memories.",
+    "location": "Bavarian Alps - Germany",
+    "imageUrl": "10-01-hiking-expedition-bavarian-alps.jpg",
+    "startDateTime": {
+      "$date": {
+        "$numberLong": "1737823200000"
+      }
+    },
+    "endDateTime": {
+      "$date": {
+        "$numberLong": "1737930400000"
+      }
+    },
+    "price": {
+      "$numberInt": "75"
+    },
+    "isFree": false,
+    "url": "https://eventful-jade.vercel.app/",
+    "category": {
+      "$oid": "6633ca4b6dc6def64cfa3c56"
+    },
+    "organizer": {
+      "$oid": "662b6a1ea1a18c8afa5efffd"
+    },
+    "attendees": [],
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1735006048000"
+      }
+    },
+    "__v": {
+      "$numberInt": "0"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "664e9d1d1d0861e28a85d261"
+    },
+    "title": "Camping Retreat: Under the Starlit Sky",
+    "description": "Escape the hustle and bustle of city life and immerse yourself in nature with our camping retreat in the Black Forest! Set up camp under the starlit sky, roast marshmallows around the campfire, and connect with fellow nature enthusiasts. Let the tranquility of the forest rejuvenate your soul.",
+    "location": "Black Forest - Germany",
+    "imageUrl": "10-02-camping-retreat-black-forest.jpg",
+    "startDateTime": {
+      "$date": {
+        "$numberLong": "1739252400000"
+      }
+    },
+    "endDateTime": {
+      "$date": {
+        "$numberLong": "1739349600000"
+      }
+    },
+    "price": {
+      "$numberInt": "60"
+    },
+    "isFree": false,
+    "url": "https://eventful-jade.vercel.app/",
+    "category": {
+      "$oid": "6633ca4b6dc6def64cfa3c56"
+    },
+    "organizer": {
+      "$oid": "662b6a1ea1a18c8afa5efffd"
+    },
+    "attendees": [],
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1735006077000"
+      }
+    },
+    "__v": {
+      "$numberInt": "0"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "664e9d381d0861e28a85d262"
+    },
+    "title": "River Rafting Adventure: Ride the Rapids",
+    "description": "Experience the thrill of river rafting on the legendary Rhine River! Navigate through exhilarating rapids, admire scenic landscapes, and bond with your crew as you conquer the waters together. Whether you're an adrenaline junkie or seeking a new adventure, this experience is sure to delight.",
+    "location": "Rhine River - Germany",
+    "imageUrl": "10-03-river-rafting-rhine-river.jpg",
+    "startDateTime": {
+      "$date": {
+        "$numberLong": "1740158400000"
+      }
+    },
+    "endDateTime": {
+      "$date": {
+        "$numberLong": "1740194400000"
+      }
+    },
+    "price": {
+      "$numberInt": "90"
+    },
+    "isFree": false,
+    "url": "https://eventful-jade.vercel.app/",
+    "category": {
+      "$oid": "6633ca4b6dc6def64cfa3c56"
+    },
+    "organizer": {
+      "$oid": "662b6a1ea1a18c8afa5efffd"
+    },
+    "attendees": [],
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1735006104000"
+      }
+    },
+    "__v": {
+      "$numberInt": "0"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "664e9d541d0861e28a85d263"
+    },
+    "title": "Hot Air Balloon Ride: Soar Above the Clouds",
+    "description": "Take to the skies and embark on a magical hot air balloon ride over the stunning landscapes of Bavaria! Drift serenely above picturesque villages, rolling hills, and lush vineyards as the sun rises on the horizon. This unforgettable adventure promises breathtaking views and cherished memories.",
+    "location": "Bavaria - Germany",
+    "imageUrl": "10-04-hot-air-balloon-bavaria.jpg",
+    "startDateTime": {
+      "$date": {
+        "$numberLong": "1740892800000"
+      }
+    },
+    "endDateTime": {
+      "$date": {
+        "$numberLong": "1740907200000"
+      }
+    },
+    "price": {
+      "$numberInt": "150"
+    },
+    "isFree": false,
+    "url": "https://eventful-jade.vercel.app/",
+    "category": {
+      "$oid": "6633ca4b6dc6def64cfa3c56"
+    },
+    "organizer": {
+      "$oid": "662b6a1ea1a18c8afa5efffd"
+    },
+    "attendees": [],
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1735006132000"
+      }
+    },
+    "__v": {
+      "$numberInt": "0"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "664e9d6c1d0861e28a85d264"
+    },
+    "title": "Road Trip Expedition: Discover Hidden Gems",
+    "description": "Hit the open road and embark on an epic road trip along the scenic Romantic Road! Explore charming medieval towns, fairytale castles, and picturesque landscapes as you journey through Germany's historic heartland. This adventure is perfect for adventurers seeking freedom and discovery.",
+    "location": "Romantic Road - Germany",
+    "imageUrl": "10-05-road-trip-romantic-road.jpg",
+    "startDateTime": {
+      "$date": {
+        "$numberLong": "1742318400000"
+      }
+    },
+    "endDateTime": {
+      "$date": {
+        "$numberLong": "1742491200000"
+      }
+    },
+    "price": {
+      "$numberInt": "200"
+    },
+    "isFree": false,
+    "url": "https://eventful-jade.vercel.app/",
+    "category": {
+      "$oid": "6633ca4b6dc6def64cfa3c56"
+    },
+    "organizer": {
+      "$oid": "662b6a1ea1a18c8afa5efffd"
+    },
+    "attendees": [],
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1735006156000"
+      }
+    },
+    "__v": {
+      "$numberInt": "0"
+    }
+  }
+]

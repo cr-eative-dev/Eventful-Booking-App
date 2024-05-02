@@ -1,0 +1,197 @@
+[
+  {
+    "_id": {
+      "$oid": "6646a7e3000eb1341a3b12c2"
+    },
+    "title": "Volunteer Day: Building Homes for the Homeless",
+    "description": "Join us for a volunteer day and make a meaningful impact by building homes for the homeless in Berlin! Together, we'll work alongside local organizations to construct shelters and provide essential support to those in need. Let's come together as a community to create positive change!",
+    "location": "Berlin - Germany",
+    "imageUrl": "05-01-volunteer-day-homes-berlin.jpg",
+    "startDateTime": {
+      "$date": {
+        "$numberLong": "1731991200000"
+      }
+    },
+    "endDateTime": {
+      "$date": {
+        "$numberLong": "1732012800000"
+      }
+    },
+    "price": {
+      "$numberInt": "0"
+    },
+    "isFree": true,
+    "url": "https://eventful-jade.vercel.app/",
+    "category": {
+      "$oid": "6633ca136dc6def64cfa3c4d"
+    },
+    "organizer": {
+      "$oid": "662b6a1ea1a18c8afa5efffd"
+    },
+    "attendees": [],
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1746443123000"
+      }
+    },
+    "__v": {
+      "$numberInt": "0"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6646a7e3000eb1341a3b12c3"
+    },
+    "title": "Food Drive: Feeding Families in Need",
+    "description": "Help fight hunger in our community by participating in our food drive in Hamburg! Donate non-perishable food items and join us in distributing food to families in need. Together, we can make a difference and ensure that no one goes hungry.",
+    "location": "Hamburg - Germany",
+    "imageUrl": "05-02-food-drive-hamburg.jpg",
+    "startDateTime": {
+      "$date": {
+        "$numberLong": "1735339200000"
+      }
+    },
+    "endDateTime": {
+      "$date": {
+        "$numberLong": "1735358400000"
+      }
+    },
+    "price": {
+      "$numberInt": "0"
+    },
+    "isFree": true,
+    "url": "https://eventful-jade.vercel.app/",
+    "category": {
+      "$oid": "6633ca136dc6def64cfa3c4d"
+    },
+    "organizer": {
+      "$oid": "662b6a1ea1a18c8afa5efffd"
+    },
+    "attendees": [],
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1746443123000"
+      }
+    },
+    "__v": {
+      "$numberInt": "0"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6646a7e3000eb1341a3b12c4"
+    },
+    "title": "Community Cleanup: Preserving Our Parks",
+    "description": "Join forces with your neighbors for a community cleanup day and help preserve our parks and green spaces in Munich! Together, we'll pick up litter, remove invasive species, and beautify our local environment for all to enjoy. Let's show our love for our community and nature!",
+    "location": "Munich - Germany",
+    "imageUrl": "05-03-community-cleanup-munich.jpg",
+    "startDateTime": {
+      "$date": {
+        "$numberLong": "1735294800000"
+      }
+    },
+    "endDateTime": {
+      "$date": {
+        "$numberLong": "1735312000000"
+      }
+    },
+    "price": {
+      "$numberInt": "0"
+    },
+    "isFree": true,
+    "url": "https://eventful-jade.vercel.app/",
+    "category": {
+      "$oid": "6633ca136dc6def64cfa3c4d"
+    },
+    "organizer": {
+      "$oid": "662b6a1ea1a18c8afa5efffd"
+    },
+    "attendees": [],
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1746443123000"
+      }
+    },
+    "__v": {
+      "$numberInt": "0"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6646a7e3000eb1341a3b12c5"
+    },
+    "title": "Youth Mentorship Program Launch",
+    "description": "Be part of our youth mentorship program launch and empower the next generation of leaders in Cologne! Join us for an inspiring event where mentors and mentees come together to foster positive relationships, share experiences, and support each other's personal and professional growth.",
+    "location": "Cologne - Germany",
+    "imageUrl": "05-04-youth-mentorship-program-cologne.jpg",
+    "startDateTime": {
+      "$date": {
+        "$numberLong": "1740309600000"
+      }
+    },
+    "endDateTime": {
+      "$date": {
+        "$numberLong": "1740325200000"
+      }
+    },
+    "price": {
+      "$numberInt": "0"
+    },
+    "isFree": true,
+    "url": "https://eventful-jade.vercel.app/",
+    "category": {
+      "$oid": "6633ca136dc6def64cfa3c4d"
+    },
+    "organizer": {
+      "$oid": "662b6a1ea1a18c8afa5efffd"
+    },
+    "attendees": [],
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1746443123000"
+      }
+    },
+    "__v": {
+      "$numberInt": "0"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6646a7e3000eb1341a3b12c6"
+    },
+    "title": "Community Garden Initiative: Growing Together",
+    "description": "Join our community garden initiative and cultivate a thriving green space in Frankfurt! Together, we'll plant fruits, vegetables, and flowers, fostering a sense of community and connection while promoting sustainable living and food security.",
+    "location": "Frankfurt - Germany",
+    "imageUrl": "05-05-community-garden-initiative-frankfurt.jpg",
+    "startDateTime": {
+      "$date": {
+        "$numberLong": "1742377200000"
+      }
+    },
+    "endDateTime": {
+      "$date": {
+        "$numberLong": "1742392800000"
+      }
+    },
+    "price": {
+      "$numberInt": "0"
+    },
+    "isFree": true,
+    "url": "https://eventful-jade.vercel.app/",
+    "category": {
+      "$oid": "6633ca136dc6def64cfa3c4d"
+    },
+    "organizer": {
+      "$oid": "662b6a1ea1a18c8afa5efffd"
+    },
+    "attendees": [],
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1746443123000"
+      }
+    },
+    "__v": {
+      "$numberInt": "0"
+    }
+  }
+]

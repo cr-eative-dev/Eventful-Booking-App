@@ -1,0 +1,197 @@
+[
+  {
+    "_id": {
+      "$oid": "664e9bb01d0861e28a85d256"
+    },
+    "title": "Workshop: Mastering Time Management",
+    "description": "Learn the art of effective time management at our workshop in Hamburg! Discover proven strategies for prioritizing tasks, setting goals, and maximizing productivity. Gain valuable insights and practical techniques to achieve your personal and professional objectives.",
+    "location": "Hamburg - Germany",
+    "imageUrl": "08-01-time-management-workshop-hamburg.jpg",
+    "startDateTime": {
+      "$date": {
+        "$numberLong": "1737837600000"
+      }
+    },
+    "endDateTime": {
+      "$date": {
+        "$numberLong": "1737852000000"
+      }
+    },
+    "price": {
+      "$numberInt": "40"
+    },
+    "isFree": false,
+    "url": "https://eventful-jade.vercel.app/",
+    "category": {
+      "$oid": "6633ca2e6dc6def64cfa3c52"
+    },
+    "organizer": {
+      "$oid": "662b6a1ea1a18c8afa5efffd"
+    },
+    "attendees": [],
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1735005780000"
+      }
+    },
+    "__v": {
+      "$numberInt": "0"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "664e9bd21d0861e28a85d257"
+    },
+    "title": "Seminar: Unlocking Your Creative Potential",
+    "description": "Unleash your creativity at our seminar in Frankfurt! Explore techniques for tapping into your creative side, overcoming blocks, and generating innovative ideas. Whether you're an artist, entrepreneur, or professional, this event will inspire and empower you to think outside the box.",
+    "location": "Frankfurt - Germany",
+    "imageUrl": "08-02-creative-potential-seminar-frankfurt.jpg",
+    "startDateTime": {
+      "$date": {
+        "$numberLong": "1739263200000"
+      }
+    },
+    "endDateTime": {
+      "$date": {
+        "$numberLong": "1739263200000"
+      }
+    },
+    "price": {
+      "$numberInt": "20"
+    },
+    "isFree": false,
+    "url": "https://eventful-jade.vercel.app/",
+    "category": {
+      "$oid": "6633ca2e6dc6def64cfa3c52"
+    },
+    "organizer": {
+      "$oid": "662b6a1ea1a18c8afa5efffd"
+    },
+    "attendees": [],
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1735005802000"
+      }
+    },
+    "__v": {
+      "$numberInt": "0"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "664e9bf21d0861e28a85d258"
+    },
+    "title": "Leadership Workshop: Empowering Tomorrow's Leaders",
+    "description": "Join our leadership workshop in Berlin and develop the skills needed to become a successful leader! Learn effective communication, decision-making, and team-building techniques from industry experts. Empower yourself to lead with confidence and inspire positive change in your organization.",
+    "location": "Berlin - Germany",
+    "imageUrl": "08-03-leadership-workshop-berlin.jpg",
+    "startDateTime": {
+      "$date": {
+        "$numberLong": "1740180000000"
+      }
+    },
+    "endDateTime": {
+      "$date": {
+        "$numberLong": "1740200400000"
+      }
+    },
+    "price": {
+      "$numberInt": "50"
+    },
+    "isFree": false,
+    "url": "https://eventful-jade.vercel.app/",
+    "category": {
+      "$oid": "6633ca2e6dc6def64cfa3c52"
+    },
+    "organizer": {
+      "$oid": "662b6a1ea1a18c8afa5efffd"
+    },
+    "attendees": [],
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1735005826000"
+      }
+    },
+    "__v": {
+      "$numberInt": "0"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "664e9c0e1d0861e28a85d259"
+    },
+    "title": "Financial Literacy Seminar: Managing Your Finances Wisely",
+    "description": "Gain essential financial knowledge at our seminar in Munich! Learn how to budget effectively, invest wisely, and plan for a secure financial future. Whether you're just starting your career or looking to enhance your financial skills, this seminar is for you.",
+    "location": "Munich - Germany",
+    "imageUrl": "08-04-financial-literacy-seminar-munich.jpg",
+    "startDateTime": {
+      "$date": {
+        "$numberLong": "1740910800000"
+      }
+    },
+    "endDateTime": {
+      "$date": {
+        "$numberLong": "1740921600000"
+      }
+    },
+    "price": {
+      "$numberInt": "0"
+    },
+    "isFree": true,
+    "url": "https://eventful-jade.vercel.app/",
+    "category": {
+      "$oid": "6633ca2e6dc6def64cfa3c52"
+    },
+    "organizer": {
+      "$oid": "662b6a1ea1a18c8afa5efffd"
+    },
+    "attendees": [],
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1735005846000"
+      }
+    },
+    "__v": {
+      "$numberInt": "0"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "664e9c261d0861e28a85d25a"
+    },
+    "title": "Personal Development Workshop: Building Resilience and Well-Being",
+    "description": "Invest in your personal growth at our workshop in Cologne! Discover strategies for building resilience, managing stress, and enhancing overall well-being. Empower yourself to thrive in both your personal and professional life with practical tools and insights.",
+    "location": "Cologne - Germany",
+    "imageUrl": "08-05-personal-development-workshop-cologne.jpg",
+    "startDateTime": {
+      "$date": {
+        "$numberLong": "1742344800000"
+      }
+    },
+    "endDateTime": {
+      "$date": {
+        "$numberLong": "1742383200000"
+      }
+    },
+    "price": {
+      "$numberInt": "30"
+    },
+    "isFree": false,
+    "url": "https://eventful-jade.vercel.app/",
+    "category": {
+      "$oid": "6633ca2e6dc6def64cfa3c52"
+    },
+    "organizer": {
+      "$oid": "662b6a1ea1a18c8afa5efffd"
+    },
+    "attendees": [],
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1735005862000"
+      }
+    },
+    "__v": {
+      "$numberInt": "0"
+    }
+  }
+]

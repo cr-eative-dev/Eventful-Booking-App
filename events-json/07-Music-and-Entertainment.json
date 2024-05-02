@@ -1,0 +1,200 @@
+
+[
+  {
+    "_id": {
+      "$oid": "664e9b1a1d0861e28a85d251"
+    },
+    "title": "Music Festival: A Celebration of Sound",
+    "description": "Join us for a spectacular music festival in the heart of Berlin! Immerse yourself in a diverse lineup of artists spanning multiple genres, from rock and pop to electronic and indie. Experience unforgettable performances, delicious food, and vibrant atmosphere.",
+    "location": "Berlin - Germany",
+    "imageUrl": "06-01-music-festival-berlin.jpg",
+    "startDateTime": {
+      "$date": {
+        "$numberLong": "1737848800000"
+      }
+    },
+    "endDateTime": {
+      "$date": {
+        "$numberLong": "1738021600000"
+      }
+    },
+    "price": {
+      "$numberInt": "60"
+    },
+    "isFree": false,
+    "url": "https://eventful-jade.vercel.app/",
+    "category": {
+      "$oid": "6633ca1f6dc6def64cfa3c50"
+    },
+    "organizer": {
+      "$oid": "662b6a1ea1a18c8afa5efffd"
+    },
+    "attendees": [],
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1735005700000"
+      }
+    },
+    "__v": {
+      "$numberInt": "0"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "664e9b3d1d0861e28a85d252"
+    },
+    "title": "Stand-up Comedy Night: Laughter Guaranteed",
+    "description": "Get ready to laugh your heart out at our stand-up comedy night in Munich! Enjoy hilarious performances by talented comedians as they tickle your funny bone with their witty jokes and observations. A night of laughter and fun awaits!",
+    "location": "Munich - Germany",
+    "imageUrl": "06-02-comedy-night-munich.jpg",
+    "startDateTime": {
+      "$date": {
+        "$numberLong": "1739263200000"
+      }
+    },
+    "endDateTime": {
+      "$date": {
+        "$numberLong": "1739263200000"
+      }
+    },
+    "price": {
+      "$numberInt": "20"
+    },
+    "isFree": false,
+    "url": "https://eventful-jade.vercel.app/",
+    "category": {
+      "$oid": "6633ca1f6dc6def64cfa3c50"
+    },
+    "organizer": {
+      "$oid": "662b6a1ea1a18c8afa5efffd"
+    },
+    "attendees": [],
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1735005713000"
+      }
+    },
+    "__v": {
+      "$numberInt": "0"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "664e9b591d0861e28a85d253"
+    },
+    "title": "Jazz Brunch: Smooth Tunes and Delicious Food",
+    "description": "Indulge in a relaxing jazz brunch experience in Frankfurt! Savor delicious food while listening to smooth jazz tunes performed live by talented musicians. Let the music serenade you as you enjoy a delightful culinary journey.",
+    "location": "Frankfurt - Germany",
+    "imageUrl": "06-03-jazz-brunch-frankfurt.jpg",
+    "startDateTime": {
+      "$date": {
+        "$numberLong": "1740180000000"
+      }
+    },
+    "endDateTime": {
+      "$date": {
+        "$numberLong": "1740190800000"
+      }
+    },
+    "price": {
+      "$numberInt": "30"
+    },
+    "isFree": false,
+    "url": "https://eventful-jade.vercel.app/",
+    "category": {
+      "$oid": "6633ca1f6dc6def64cfa3c50"
+    },
+    "organizer": {
+      "$oid": "662b6a1ea1a18c8afa5efffd"
+    },
+    "attendees": [],
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1735005737000"
+      }
+    },
+    "__v": {
+      "$numberInt": "0"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "664e9b771d0861e28a85d254"
+    },
+    "title": "Movie Night Under the Stars",
+    "description": "Grab your popcorn and join us for a cozy movie night under the stars! Enjoy a selection of classic films and modern favorites projected outdoors for a magical cinematic experience. Bring your blankets and friends for a memorable evening!",
+    "location": "Online",
+    "imageUrl": "06-04-movie-night-under-the-stars.jpg",
+    "startDateTime": {
+      "$date": {
+        "$numberLong": "1740910800000"
+      }
+    },
+    "endDateTime": {
+      "$date": {
+        "$numberLong": "1740921600000"
+      }
+    },
+    "price": {
+      "$numberInt": "0"
+    },
+    "isFree": true,
+    "url": "https://eventful-jade.vercel.app/",
+    "category": {
+      "$oid": "6633ca1f6dc6def64cfa3c50"
+    },
+    "organizer": {
+      "$oid": "662b6a1ea1a18c8afa5efffd"
+    },
+    "attendees": [],
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1735005751000"
+      }
+    },
+    "__v": {
+      "$numberInt": "0"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "664e9b8b1d0861e28a85d255"
+    },
+    "title": "Karaoke Party: Sing Your Heart Out",
+    "description": "It's time to unleash your inner rock star at our karaoke party in Cologne! Sing your favorite songs, show off your vocal talents, and enjoy a night of music and camaraderie with friends. Let's make memories and create unforgettable moments together!",
+    "location": "Cologne - Germany",
+    "imageUrl": "06-05-karaoke-party-cologne.jpg",
+    "startDateTime": {
+      "$date": {
+        "$numberLong": "1741333200000"
+      }
+    },
+    "endDateTime": {
+      "$date": {
+        "$numberLong": "1741350000000"
+      }
+    },
+    "price": {
+      "$numberInt": "15"
+    },
+    "isFree": false,
+    "url": "https://eventful-jade.vercel.app/",
+    "category": {
+      "$oid": "6633ca1f6dc6def64cfa3c50"
+    },
+    "organizer": {
+     
+
+ "$oid": "662b6a1ea1a18c8afa5efffd"
+    },
+    "attendees": [],
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1735005763000"
+      }
+    },
+    "__v": {
+      "$numberInt": "0"
+    }
+  }
+]

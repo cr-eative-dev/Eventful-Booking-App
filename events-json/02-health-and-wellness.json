@@ -1,0 +1,197 @@
+[
+  {
+    "_id": {
+      "$oid": "663da9b39ba2d431b63578f5"
+    },
+    "title": "Yoga Retreat: Serenity in the Black Forest",
+    "description": "Escape the hustle and bustle of daily life with our rejuvenating yoga retreat in the serene surroundings of the Black Forest! Join us for a weekend of relaxation, meditation, and yoga sessions led by experienced instructors. Reconnect with your mind, body, and soul in nature's embrace.",
+    "location": "Black Forest - Germany",
+    "imageUrl": "02-01-yoga-retreat-black-forest.jpg",
+    "startDateTime": {
+      "$date": {
+        "$numberLong": "1720123600000"
+      }
+    },
+    "endDateTime": {
+      "$date": {
+        "$numberLong": "1720296000000"
+      }
+    },
+    "price": {
+      "$numberInt": "300"
+    },
+    "isFree": false,
+    "url": "https://eventful-jade.vercel.app/",
+    "category": {
+      "$oid": "6633c9f96dc6def64cfa3c47"
+    },
+    "organizer": {
+      "$oid": "662b6a1ea1a18c8afa5efffd"
+    },
+    "attendees": [],
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1720123782000"
+      }
+    },
+    "__v": {
+      "$numberInt": "0"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "663f9a3c65d23f9c44b96cb7"
+    },
+    "title": "Mindfulness Meditation Workshop",
+    "description": "Find inner peace and balance with our mindfulness meditation workshop in Frankfurt! Learn practical techniques to reduce stress, increase focus, and cultivate mindfulness in your daily life. Take a step towards holistic well-being and discover the transformative power of meditation.",
+    "location": "Frankfurt - Germany",
+    "imageUrl": "02-02-mindfulness-meditation-workshop-frankfurt.jpg",
+    "startDateTime": {
+      "$date": {
+        "$numberLong": "1721170800000"
+      }
+    },
+    "endDateTime": {
+      "$date": {
+        "$numberLong": "1721178000000"
+      }
+    },
+    "price": {
+      "$numberInt": "50"
+    },
+    "isFree": false,
+    "url": "https://eventful-jade.vercel.app/",
+    "category": {
+      "$oid": "6633c9f96dc6def64cfa3c47"
+    },
+    "organizer": {
+      "$oid": "662b6a1ea1a18c8afa5efffd"
+    },
+    "attendees": [],
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1721170851000"
+      }
+    },
+    "__v": {
+      "$numberInt": "0"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "66405e2e02af360bd825b5f9"
+    },
+    "title": "Holistic Wellness Retreat: Healing in the Bavarian Alps",
+    "description": "Embark on a journey of self-discovery and healing with our holistic wellness retreat in the breathtaking Bavarian Alps! Immerse yourself in yoga, meditation, sound healing, and holistic therapies to restore balance and harmony to your body, mind, and spirit.",
+    "location": "Bavarian Alps - Germany",
+    "imageUrl": "02-03-holistic-wellness-retreat-bavarian-alps.jpg",
+    "startDateTime": {
+      "$date": {
+        "$numberLong": "1731163600000"
+      }
+    },
+    "endDateTime": {
+      "$date": {
+        "$numberLong": "1731336000000"
+      }
+    },
+    "price": {
+      "$numberInt": "500"
+    },
+    "isFree": false,
+    "url": "https://eventful-jade.vercel.app/",
+    "category": {
+      "$oid": "6633c9f96dc6def64cfa3c47"
+    },
+    "organizer": {
+      "$oid": "662b6a1ea1a18c8afa5efffd"
+    },
+    "attendees": [],
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1731163788000"
+      }
+    },
+    "__v": {
+      "$numberInt": "0"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6640a5db1022a36c4b00eab7"
+    },
+    "title": "Virtual Fitness Challenge: Get Active from Anywhere",
+    "description": "Join our virtual fitness challenge and embark on a journey to a healthier, more active lifestyle from the comfort of your home! Participate in daily workouts, wellness challenges, and live coaching sessions to achieve your fitness goals and connect with a supportive community of like-minded individuals.",
+    "location": "Online",
+    "imageUrl": "02-04-virtual-fitness-challenge-online.jpg",
+    "startDateTime": {
+      "$date": {
+        "$numberLong": "1734741600000"
+      }
+    },
+    "endDateTime": {
+      "$date": {
+        "$numberLong": "1735864800000"
+      }
+    },
+    "price": {
+      "$numberInt": "40"
+    },
+    "isFree": false,
+    "url": "https://eventful-jade.vercel.app/",
+    "category": {
+      "$oid": "6633c9f96dc6def64cfa3c47"
+    },
+    "organizer": {
+      "$oid": "662b6a1ea1a18c8afa5efffd"
+    },
+    "attendees": [],
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1734741905000"
+      }
+    },
+    "__v": {
+      "$numberInt": "0"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "66410bca0007a37171ae5ff9"
+    },
+    "title": "Healthy Cooking Class: Farm-to-Table Cuisine",
+    "description": "Learn the art of healthy cooking with our farm-to-table cuisine class in Stuttgart! Discover delicious and nutritious recipes using fresh, locally sourced ingredients. From vibrant salads to hearty soups, elevate your culinary skills and nourish your body with wholesome meals.",
+    "location": "Stuttgart - Germany",
+    "imageUrl": "02-05-healthy-cooking-class-stuttgart.jpg",
+    "startDateTime": {
+      "$date": {
+        "$numberLong": "1742323200000"
+      }
+    },
+    "endDateTime": {
+      "$date": {
+        "$numberLong": "1742337600000"
+      }
+    },
+    "price": {
+      "$numberInt": "60"
+    },
+    "isFree": false,
+    "url": "https://eventful-jade.vercel.app/",
+    "category": {
+      "$oid": "6633c9f96dc6def64cfa3c47"
+    },
+    "organizer": {
+      "$oid": "662b6a1ea1a18c8afa5efffd"
+    },
+    "attendees": [],
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1742323396000"
+      }
+    },
+    "__v": {
+      "$numberInt": "0"
+    }
+  }
+]

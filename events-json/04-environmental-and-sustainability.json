@@ -1,0 +1,197 @@
+[
+  {
+    "_id": {
+      "$oid": "664e9fae1d0861e28a85d26f"
+    },
+    "title": "Clean-Up Day: Protecting Our Oceans",
+    "description": "Join us for a community clean-up day and make a difference in protecting our oceans! Together, we'll remove litter and debris from local beaches and shorelines, promoting marine conservation and preserving the beauty of our marine ecosystems. Let's work together for a cleaner, healthier planet!",
+    "location": "Hamburg - Germany",
+    "imageUrl": "04-01-clean-up-day-oceans-hamburg.jpg",
+    "startDateTime": {
+      "$date": {
+        "$numberLong": "1736972400000"
+      }
+    },
+    "endDateTime": {
+      "$date": {
+        "$numberLong": "1736994000000"
+      }
+    },
+    "price": {
+      "$numberInt": "0"
+    },
+    "isFree": true,
+    "url": "https://eventful-jade.vercel.app/",
+    "category": {
+      "$oid": "6633ca046dc6def64cfa3c4b"
+    },
+    "organizer": {
+      "$oid": "662b6a1ea1a18c8afa5efffd"
+    },
+    "attendees": [],
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1735006542000"
+      }
+    },
+    "__v": {
+      "$numberInt": "0"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "664e9fc11d0861e28a85d270"
+    },
+    "title": "Sustainable Fashion Workshop: Upcycling Clothing",
+    "description": "Discover the art of upcycling clothing and embrace sustainable fashion at our workshop in Berlin! Learn creative techniques to transform old garments into stylish new pieces, reducing textile waste and promoting a circular fashion economy. Join the movement towards a more sustainable wardrobe!",
+    "location": "Berlin - Germany",
+    "imageUrl": "04-02-sustainable-fashion-workshop-berlin.jpg",
+    "startDateTime": {
+      "$date": {
+        "$numberLong": "1741092000000"
+      }
+    },
+    "endDateTime": {
+      "$date": {
+        "$numberLong": "1741109600000"
+      }
+    },
+    "price": {
+      "$numberInt": "25"
+    },
+    "isFree": false,
+    "url": "https://eventful-jade.vercel.app/",
+    "category": {
+      "$oid": "6633ca046dc6def64cfa3c4b"
+    },
+    "organizer": {
+      "$oid": "662b6a1ea1a18c8afa5efffd"
+    },
+    "attendees": [],
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1735006561000"
+      }
+    },
+    "__v": {
+      "$numberInt": "0"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "664e9fd11d0861e28a85d271"
+    },
+    "title": "Renewable Energy Expo: Powering the Future",
+    "description": "Explore the latest innovations in renewable energy at our expo in Munich! Discover cutting-edge technologies and sustainable solutions for powering the future, from solar and wind energy to hydrogen fuel cells and beyond. Join us in building a cleaner, greener world!",
+    "location": "Munich - Germany",
+    "imageUrl": "04-03-renewable-energy-expo-munich.jpg",
+    "startDateTime": {
+      "$date": {
+        "$numberLong": "1739148000000"
+      }
+    },
+    "endDateTime": {
+      "$date": {
+        "$numberLong": "1739234400000"
+      }
+    },
+    "price": {
+      "$numberInt": "35"
+    },
+    "isFree": false,
+    "url": "https://eventful-jade.vercel.app/",
+    "category": {
+      "$oid": "6633ca046dc6def64cfa3c4b"
+    },
+    "organizer": {
+      "$oid": "662b6a1ea1a18c8afa5efffd"
+    },
+    "attendees": [],
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1735006581000"
+      }
+    },
+    "__v": {
+      "$numberInt": "0"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "664e9fe01d0861e28a85d272"
+    },
+    "title": "Tree Planting Initiative: Greening Our Cities",
+    "description": "Be a part of our tree planting initiative and contribute to greening our cities! Join us in Frankfurt as we plant native trees and shrubs, enhancing urban green spaces, improving air quality, and fostering biodiversity. Let's create a healthier, more sustainable future together!",
+    "location": "Frankfurt - Germany",
+    "imageUrl": "04-04-tree-planting-initiative-frankfurt.jpg",
+    "startDateTime": {
+      "$date": {
+        "$numberLong": "1738351200000"
+      }
+    },
+    "endDateTime": {
+      "$date": {
+        "$numberLong": "1738376400000"
+      }
+    },
+    "price": {
+      "$numberInt": "0"
+    },
+    "isFree": true,
+    "url": "https://eventful-jade.vercel.app/",
+    "category": {
+      "$oid": "6633ca046dc6def64cfa3c4b"
+    },
+    "organizer": {
+      "$oid": "662b6a1ea1a18c8afa5efffd"
+    },
+    "attendees": [],
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1735006600000"
+      }
+    },
+    "__v": {
+      "$numberInt": "0"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "664e9ff01d0861e28a85d273"
+    },
+    "title": "Environmental Education Workshop: Inspiring Future Stewards",
+    "description": "Empower the next generation of environmental stewards with our educational workshop in Cologne! Engage students in hands-on activities, interactive lessons, and outdoor experiences to foster a deeper understanding of environmental issues and inspire a lifelong commitment to sustainability.",
+    "location": "Cologne - Germany",
+    "imageUrl": "04-05-environmental-education-workshop-cologne.jpg",
+    "startDateTime": {
+      "$date": {
+        "$numberLong": "1737010800000"
+      }
+    },
+    "endDateTime": {
+      "$date": {
+        "$numberLong": "1737043200000"
+      }
+    },
+    "price": {
+      "$numberInt": "30"
+    },
+    "isFree": false,
+    "url": "https://eventful-jade.vercel.app/",
+    "category": {
+      "$oid": "6633ca046dc6def64cfa3c4b"
+    },
+    "organizer": {
+      "$oid": "662b6a1ea1a18c8afa5efffd"
+    },
+    "attendees": [],
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1735006616000"
+      }
+    },
+    "__v": {
+      "$numberInt": "0"
+    }
+  }
+]
