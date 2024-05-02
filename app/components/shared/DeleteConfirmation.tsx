@@ -26,7 +26,7 @@ export const DeleteConfirmation = ({ eventId }: { eventId: string }) => {
   return (
     <AlertDialog>
       <AlertDialogTrigger>
-        <Trash2 />
+        <Trash2 className="transition duration-500 hover:scale-110" />
       </AlertDialogTrigger>
 
       <AlertDialogContent className="bg-white">
