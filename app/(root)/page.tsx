@@ -50,7 +50,14 @@ export default async function Home({ searchParams }: SearchParamProps) {
             alt="hero"
             width={1000}
             height={1000}
-            className="max-h-[70vh] object-contain object-center 2xl:max-h-[50vh] dark:filter dark:invert dark:brightness-9000 dark:contrast-150 dark:grayscale"
+            className="max-h-[70vh] object-contain object-center 2xl:max-h-[50vh]  dark:hidden"
+          />
+          <Image
+            src="/assets/images/hero_dark.png"
+            alt="hero"
+            width={1000}
+            height={1000}
+            className="max-h-[70vh] object-contain hidden object-center 2xl:max-h-[50vh] dark:block"
           />
         </div>
       </section>
@@ -61,10 +68,7 @@ export default async function Home({ searchParams }: SearchParamProps) {
       >
         <h2 className="h2-bold">
           <span className="font-tanmeringue">Explore</span> hundreds
-          <br /> of{" "}
-          <span className="highlightBrush_1 leading-relaxed dark:text-black">
-            events
-          </span>
+          <br /> of <span>events</span>
         </h2>
 
         <div className="flex w-full flex-col gap-5 md:flex-row">
