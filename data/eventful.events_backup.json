@@ -1,0 +1,1450 @@
+[{
+  "_id": {
+    "$oid": "663da9b39ba2d431b63578f5"
+  },
+  "title": "Yoga Retreat: Serenity in the Black Forest",
+  "description": "Escape the hustle and bustle of daily life with our rejuvenating yoga retreat in the serene surroundings of the Black Forest! Join us for a weekend of relaxation, meditation, and yoga sessions led by experienced instructors. Reconnect with your mind, body, and soul in nature's embrace.",
+  "location": "Black Forest - Germany",
+  "imageUrl": "https://utfs.io/f/5357414c-23ed-4278-9770-7f8d0059c28c-fwqclp.jpg",
+  "startDateTime": {
+    "$date": "2024-07-04T20:06:40.000Z"
+  },
+  "endDateTime": {
+    "$date": "2024-07-06T20:00:00.000Z"
+  },
+  "price": "300",
+  "isFree": false,
+  "url": "https://eventful-jade.vercel.app/",
+  "category": {
+    "$oid": "6633c9f96dc6def64cfa3c47"
+  },
+  "organizer": {
+    "$oid": "662b6a1ea1a18c8afa5efffd"
+  },
+  "attendees": [],
+  "createdAt": {
+    "$date": "2024-07-04T20:09:42.000Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "663f9a3c65d23f9c44b96cb7"
+  },
+  "title": "Mindfulness Meditation Workshop",
+  "description": "Find inner peace and balance with our mindfulness meditation workshop in Frankfurt! Learn practical techniques to reduce stress, increase focus, and cultivate mindfulness in your daily life. Take a step towards holistic well-being and discover the transformative power of meditation.",
+  "location": "Frankfurt - Germany",
+  "imageUrl": "https://utfs.io/f/196e471c-7966-47e9-91eb-50c18931f178-o0th4x.jpg",
+  "startDateTime": {
+    "$date": "2024-07-16T23:00:00.000Z"
+  },
+  "endDateTime": {
+    "$date": "2024-07-17T01:00:00.000Z"
+  },
+  "price": "50",
+  "isFree": false,
+  "url": "https://eventful-jade.vercel.app/",
+  "category": {
+    "$oid": "6633c9f96dc6def64cfa3c47"
+  },
+  "organizer": {
+    "$oid": "662b6a1ea1a18c8afa5efffd"
+  },
+  "attendees": [],
+  "createdAt": {
+    "$date": "2024-07-16T23:00:51.000Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66405e2e02af360bd825b5f9"
+  },
+  "title": "Holistic Wellness Retreat: Healing in the Bavarian Alps",
+  "description": "Embark on a journey of self-discovery and healing with our holistic wellness retreat in the breathtaking Bavarian Alps! Immerse yourself in yoga, meditation, sound healing, and holistic therapies to restore balance and harmony to your body, mind, and spirit.",
+  "location": "Bavarian Alps - Germany",
+  "imageUrl": "https://utfs.io/f/ad852d32-dfe6-4952-9f90-7efbad05fec5-w8onn6.jpg",
+  "startDateTime": {
+    "$date": "2024-11-09T14:46:40.000Z"
+  },
+  "endDateTime": {
+    "$date": "2024-11-11T14:40:00.000Z"
+  },
+  "price": "500",
+  "isFree": false,
+  "url": "https://eventful-jade.vercel.app/",
+  "category": {
+    "$oid": "6633c9f96dc6def64cfa3c47"
+  },
+  "organizer": {
+    "$oid": "662b6a1ea1a18c8afa5efffd"
+  },
+  "attendees": [],
+  "createdAt": {
+    "$date": "2024-11-09T14:49:48.000Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6640a5db1022a36c4b00eab7"
+  },
+  "title": "Virtual Fitness Challenge: Get Active from Anywhere",
+  "description": "Join our virtual fitness challenge and embark on a journey to a healthier, more active lifestyle from the comfort of your home! Participate in daily workouts, wellness challenges, and live coaching sessions to achieve your fitness goals and connect with a supportive community of like-minded individuals.",
+  "location": "Online",
+  "imageUrl": "https://utfs.io/f/f77befe4-674b-4b61-bc52-2f5ad38f83b9-ukssf2.jpg",
+  "startDateTime": {
+    "$date": "2024-12-21T00:40:00.000Z"
+  },
+  "endDateTime": {
+    "$date": "2025-01-03T00:40:00.000Z"
+  },
+  "price": "40",
+  "isFree": false,
+  "url": "https://eventful-jade.vercel.app/",
+  "category": {
+    "$oid": "6633c9f96dc6def64cfa3c47"
+  },
+  "organizer": {
+    "$oid": "662b6a1ea1a18c8afa5efffd"
+  },
+  "attendees": [],
+  "createdAt": {
+    "$date": "2024-12-21T00:45:05.000Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66410bca0007a37171ae5ff9"
+  },
+  "title": "Healthy Cooking Class: Farm-to-Table Cuisine",
+  "description": "Learn the art of healthy cooking with our farm-to-table cuisine class in Stuttgart! Discover delicious and nutritious recipes using fresh, locally sourced ingredients. From vibrant salads to hearty soups, elevate your culinary skills and nourish your body with wholesome meals.",
+  "location": "Stuttgart - Germany",
+  "imageUrl": "https://utfs.io/f/51869a7c-b98c-4fcf-84c3-001afb432609-9zb5x.jpg",
+  "startDateTime": {
+    "$date": "2025-03-18T18:40:00.000Z"
+  },
+  "endDateTime": {
+    "$date": "2025-03-18T22:40:00.000Z"
+  },
+  "price": "60",
+  "isFree": false,
+  "url": "https://eventful-jade.vercel.app/",
+  "category": {
+    "$oid": "6633c9f96dc6def64cfa3c47"
+  },
+  "organizer": {
+    "$oid": "662b6a1ea1a18c8afa5efffd"
+  },
+  "attendees": [],
+  "createdAt": {
+    "$date": "2025-03-18T18:43:16.000Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6646a501000eb1341a3b12b4"
+  },
+  "title": "Tech Expo: Exploring Future Technologies",
+  "description": "Dive into the world of technology and innovation at our tech expo in Berlin! Explore cutting-edge gadgets, robotics, artificial intelligence, and more. Engage with industry experts, attend workshops, and discover the possibilities of tomorrow's technology today.",
+  "location": "Berlin - Germany",
+  "imageUrl": "https://utfs.io/f/d5eee7b2-8c77-46ab-bda4-318f8b4cacb7-p9ze3v.jpg",
+  "startDateTime": {
+    "$date": "2024-11-25T19:06:40.000Z"
+  },
+  "endDateTime": {
+    "$date": "2024-11-27T19:06:40.000Z"
+  },
+  "price": "50",
+  "isFree": false,
+  "url": "https://eventful-jade.vercel.app/",
+  "category": {
+    "$oid": "6633c9a4552b7fe05d0085f3"
+  },
+  "organizer": {
+    "$oid": "662b6a1ea1a18c8afa5efffd"
+  },
+  "attendees": [],
+  "createdAt": {
+    "$date": "2025-05-05T07:07:01.000Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6646a501000eb1341a3b12b5"
+  },
+  "title": "Startup Pitch Competition: Unleashing Entrepreneurial Talent",
+  "description": "Witness the future of entrepreneurship unfold at our startup pitch competition in Munich! Cheer on aspiring entrepreneurs as they pitch their innovative ideas to a panel of judges and compete for funding and recognition. Be inspired by creativity, ingenuity, and passion!",
+  "location": "Munich - Germany",
+  "imageUrl": "https://utfs.io/f/e211c8da-5965-4468-99bb-c91a45b24935-50ho21.jpg",
+  "startDateTime": {
+    "$date": "2024-12-27T18:26:40.000Z"
+  },
+  "endDateTime": {
+    "$date": "2024-12-27T22:40:00.000Z"
+  },
+  "price": "25",
+  "isFree": false,
+  "url": "https://eventful-jade.vercel.app/",
+  "category": {
+    "$oid": "6633c9a4552b7fe05d0085f3"
+  },
+  "organizer": {
+    "$oid": "662b6a1ea1a18c8afa5efffd"
+  },
+  "attendees": [],
+  "createdAt": {
+    "$date": "2025-05-05T07:07:01.000Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6646a501000eb1341a3b12b6"
+  },
+  "title": "AI and Machine Learning Workshop: Building Smart Solutions",
+  "description": "Dive deep into the world of artificial intelligence and machine learning at our workshop in Frankfurt! Learn practical skills and techniques for developing smart solutions and harnessing the power of AI to drive innovation and solve complex problems.",
+  "location": "Frankfurt - Germany",
+  "imageUrl": "https://utfs.io/f/5baf74bb-22cb-4f11-b114-2692751553ce-qngxvo.jpg",
+  "startDateTime": {
+    "$date": "2025-01-10T22:00:00.000Z"
+  },
+  "endDateTime": {
+    "$date": "2025-01-11T08:00:00.000Z"
+  },
+  "price": "100",
+  "isFree": false,
+  "url": "https://eventful-jade.vercel.app/",
+  "category": {
+    "$oid": "6633c9a4552b7fe05d0085f3"
+  },
+  "organizer": {
+    "$oid": "662b6a1ea1a18c8afa5efffd"
+  },
+  "attendees": [],
+  "createdAt": {
+    "$date": "2025-05-05T07:07:01.000Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6646a501000eb1341a3b12b7"
+  },
+  "title": "Virtual Reality Experience: Immersive Adventures",
+  "description": "Step into the world of virtual reality and embark on immersive adventures from the comfort of your home! Explore virtual worlds, interact with lifelike simulations, and experience the future of entertainment and gaming like never before.",
+  "location": "Online",
+  "imageUrl": "https://utfs.io/f/0aa80158-6698-4ea6-80f8-1f47babed81f-kvw87f.jpg",
+  "startDateTime": {
+    "$date": "2025-02-23T11:20:00.000Z"
+  },
+  "endDateTime": {
+    "$date": "2025-02-24T11:20:00.000Z"
+  },
+  "price": "0",
+  "isFree": true,
+  "url": "https://eventful-jade.vercel.app/",
+  "category": {
+    "$oid": "6633c9a4552b7fe05d0085f3"
+  },
+  "organizer": {
+    "$oid": "662b6a1ea1a18c8afa5efffd"
+  },
+  "attendees": [],
+  "createdAt": {
+    "$date": "2025-05-05T07:07:01.000Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6646a501000eb1341a3b12b8"
+  },
+  "title": "Tech for Good Symposium: Innovating for a Better World",
+  "description": "Join us for a symposium on technology for social impact and explore how innovation can be a force for good in the world! Engage with thought leaders, industry experts, and changemakers as we discuss pressing global challenges and innovative solutions.",
+  "location": "Cologne - Germany",
+  "imageUrl": "https://utfs.io/f/b8203326-58d3-4338-a057-0853bae538f9-jxzw80.jpg",
+  "startDateTime": {
+    "$date": "2025-03-18T22:40:00.000Z"
+  },
+  "endDateTime": {
+    "$date": "2025-03-19T05:40:00.000Z"
+  },
+  "price": "0",
+  "isFree": true,
+  "url": "https://eventful-jade.vercel.app/",
+  "category": {
+    "$oid": "6633c9a4552b7fe05d0085f3"
+  },
+  "organizer": {
+    "$oid": "662b6a1ea1a18c8afa5efffd"
+  },
+  "attendees": [],
+  "createdAt": {
+    "$date": "2025-05-05T07:07:01.000Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6646a7e3000eb1341a3b12c2"
+  },
+  "title": "Volunteer Day: Building Homes for the Homeless",
+  "description": "Join us for a volunteer day and make a meaningful impact by building homes for the homeless in Berlin! Together, we'll work alongside local organizations to construct shelters and provide essential support to those in need. Let's come together as a community to create positive change!",
+  "location": "Berlin - Germany",
+  "imageUrl": "https://utfs.io/f/032de073-0383-4c36-bad2-c5166a5abad2-jxt3hp.jpg",
+  "startDateTime": {
+    "$date": "2024-11-19T04:40:00.000Z"
+  },
+  "endDateTime": {
+    "$date": "2024-11-19T10:40:00.000Z"
+  },
+  "price": "0",
+  "isFree": true,
+  "url": "https://eventful-jade.vercel.app/",
+  "category": {
+    "$oid": "6633ca136dc6def64cfa3c4d"
+  },
+  "organizer": {
+    "$oid": "662b6a1ea1a18c8afa5efffd"
+  },
+  "attendees": [],
+  "createdAt": {
+    "$date": "2025-05-05T11:05:23.000Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6646a7e3000eb1341a3b12c3"
+  },
+  "title": "Food Drive: Feeding Families in Need",
+  "description": "Help fight hunger in our community by participating in our food drive in Hamburg! Donate non-perishable food items and join us in distributing food to families in need. Together, we can make a difference and ensure that no one goes hungry.",
+  "location": "Hamburg - Germany",
+  "imageUrl": "https://utfs.io/f/eade9296-e2e2-46f3-9a9c-1738c83dd47f-75l6ml.jpg",
+  "startDateTime": {
+    "$date": "2024-12-27T22:40:00.000Z"
+  },
+  "endDateTime": {
+    "$date": "2024-12-28T04:00:00.000Z"
+  },
+  "price": "0",
+  "isFree": true,
+  "url": "https://eventful-jade.vercel.app/",
+  "category": {
+    "$oid": "6633ca136dc6def64cfa3c4d"
+  },
+  "organizer": {
+    "$oid": "662b6a1ea1a18c8afa5efffd"
+  },
+  "attendees": [],
+  "createdAt": {
+    "$date": "2025-05-05T11:05:23.000Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6646a7e3000eb1341a3b12c4"
+  },
+  "title": "Community Cleanup: Preserving Our Parks",
+  "description": "Join forces with your neighbors for a community cleanup day and help preserve our parks and green spaces in Munich! Together, we'll pick up litter, remove invasive species, and beautify our local environment for all to enjoy. Let's show our love for our community and nature!",
+  "location": "Munich - Germany",
+  "imageUrl": "https://utfs.io/f/8fcf18c6-8af2-4032-8933-a31b3e6da7c1-73cfav.jpg",
+  "startDateTime": {
+    "$date": "2024-12-27T10:20:00.000Z"
+  },
+  "endDateTime": {
+    "$date": "2024-12-27T15:06:40.000Z"
+  },
+  "price": "0",
+  "isFree": true,
+  "url": "https://eventful-jade.vercel.app/",
+  "category": {
+    "$oid": "6633ca136dc6def64cfa3c4d"
+  },
+  "organizer": {
+    "$oid": "662b6a1ea1a18c8afa5efffd"
+  },
+  "attendees": [],
+  "createdAt": {
+    "$date": "2025-05-05T11:05:23.000Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6646a7e3000eb1341a3b12c5"
+  },
+  "title": "Youth Mentorship Program Launch",
+  "description": "Be part of our youth mentorship program launch and empower the next generation of leaders in Cologne! Join us for an inspiring event where mentors and mentees come together to foster positive relationships, share experiences, and support each other's personal and professional growth.",
+  "location": "Cologne - Germany",
+  "imageUrl": "https://utfs.io/f/9fc97b56-fcbc-48d4-9bf4-23ef7af0be0c-ftrhbj.jpg",
+  "startDateTime": {
+    "$date": "2025-02-23T11:20:00.000Z"
+  },
+  "endDateTime": {
+    "$date": "2025-02-23T15:40:00.000Z"
+  },
+  "price": "0",
+  "isFree": true,
+  "url": "https://eventful-jade.vercel.app/",
+  "category": {
+    "$oid": "6633ca136dc6def64cfa3c4d"
+  },
+  "organizer": {
+    "$oid": "662b6a1ea1a18c8afa5efffd"
+  },
+  "attendees": [],
+  "createdAt": {
+    "$date": "2025-05-05T11:05:23.000Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6646a7e3000eb1341a3b12c6"
+  },
+  "title": "Community Garden Initiative: Growing Together",
+  "description": "Join our community garden initiative and cultivate a thriving green space in Frankfurt! Together, we'll plant fruits, vegetables, and flowers, fostering a sense of community and connection while promoting sustainable living and food security.",
+  "location": "Frankfurt - Germany",
+  "imageUrl": "https://utfs.io/f/c8db446d-14bc-44a9-a42f-d178a923a246-7bzobu.jpg",
+  "startDateTime": {
+    "$date": "2025-03-19T09:40:00.000Z"
+  },
+  "endDateTime": {
+    "$date": "2025-03-19T14:00:00.000Z"
+  },
+  "price": "0",
+  "isFree": true,
+  "url": "https://eventful-jade.vercel.app/",
+  "category": {
+    "$oid": "6633ca136dc6def64cfa3c4d"
+  },
+  "organizer": {
+    "$oid": "662b6a1ea1a18c8afa5efffd"
+  },
+  "attendees": [],
+  "createdAt": {
+    "$date": "2025-05-05T11:05:23.000Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "664e9b1a1d0861e28a85d251"
+  },
+  "title": "Music Festival: A Celebration of Sound",
+  "description": "Join us for a spectacular music festival in the heart of Berlin! Immerse yourself in a diverse lineup of artists spanning multiple genres, from rock and pop to electronic and indie. Experience unforgettable performances, delicious food, and vibrant atmosphere.",
+  "location": "Berlin - Germany",
+  "imageUrl": "https://utfs.io/f/ab2409c9-5c61-4617-9727-9ece9209301b-hrrp4m.jpg",
+  "startDateTime": {
+    "$date": "2025-01-25T23:46:40.000Z"
+  },
+  "endDateTime": {
+    "$date": "2025-01-27T23:46:40.000Z"
+  },
+  "price": "60",
+  "isFree": false,
+  "url": "https://eventful-jade.vercel.app/",
+  "category": {
+    "$oid": "6633ca1f6dc6def64cfa3c50"
+  },
+  "organizer": {
+    "$oid": "662b6a1ea1a18c8afa5efffd"
+  },
+  "attendees": [],
+  "createdAt": {
+    "$date": "2024-12-24T02:01:40.000Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "664e9b3d1d0861e28a85d252"
+  },
+  "title": "Stand-up Comedy Night: Laughter Guaranteed",
+  "description": "Get ready to laugh your heart out at our stand-up comedy night in Munich! Enjoy hilarious performances by talented comedians as they tickle your funny bone with their witty jokes and observations. A night of laughter and fun awaits!",
+  "location": "Munich - Germany",
+  "imageUrl": "https://utfs.io/f/7ff8006d-33eb-49c0-a3f1-2e729b39334d-kqctil.jpg",
+  "startDateTime": {
+    "$date": "2025-02-11T08:40:00.000Z"
+  },
+  "endDateTime": {
+    "$date": "2025-02-11T08:40:00.000Z"
+  },
+  "price": "20",
+  "isFree": false,
+  "url": "https://eventful-jade.vercel.app/",
+  "category": {
+    "$oid": "6633ca1f6dc6def64cfa3c50"
+  },
+  "organizer": {
+    "$oid": "662b6a1ea1a18c8afa5efffd"
+  },
+  "attendees": [],
+  "createdAt": {
+    "$date": "2024-12-24T02:01:53.000Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "664e9b591d0861e28a85d253"
+  },
+  "title": "Jazz Brunch: Smooth Tunes and Delicious Food",
+  "description": "Indulge in a relaxing jazz brunch experience in Frankfurt! Savor delicious food while listening to smooth jazz tunes performed live by talented musicians. Let the music serenade you as you enjoy a delightful culinary journey.",
+  "location": "Frankfurt - Germany",
+  "imageUrl": "https://utfs.io/f/ab73b5df-20a0-4b6b-b412-3ac22be887c8-xx8nxl.jpg",
+  "startDateTime": {
+    "$date": "2025-02-21T23:20:00.000Z"
+  },
+  "endDateTime": {
+    "$date": "2025-02-22T02:20:00.000Z"
+  },
+  "price": "30",
+  "isFree": false,
+  "url": "https://eventful-jade.vercel.app/",
+  "category": {
+    "$oid": "6633ca1f6dc6def64cfa3c50"
+  },
+  "organizer": {
+    "$oid": "662b6a1ea1a18c8afa5efffd"
+  },
+  "attendees": [],
+  "createdAt": {
+    "$date": "2024-12-24T02:02:17.000Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "664e9b771d0861e28a85d254"
+  },
+  "title": "Movie Night Under the Stars",
+  "description": "Grab your popcorn and join us for a cozy movie night under the stars! Enjoy a selection of classic films and modern favorites projected outdoors for a magical cinematic experience. Bring your blankets and friends for a memorable evening!",
+  "location": "Online",
+  "imageUrl": "https://utfs.io/f/d1eda88a-522f-4ecd-aa1a-deba00308e2e-poxvqc.jpg",
+  "startDateTime": {
+    "$date": "2025-03-02T10:20:00.000Z"
+  },
+  "endDateTime": {
+    "$date": "2025-03-02T13:20:00.000Z"
+  },
+  "price": "0",
+  "isFree": true,
+  "url": "https://eventful-jade.vercel.app/",
+  "category": {
+    "$oid": "6633ca1f6dc6def64cfa3c50"
+  },
+  "organizer": {
+    "$oid": "662b6a1ea1a18c8afa5efffd"
+  },
+  "attendees": [],
+  "createdAt": {
+    "$date": "2024-12-24T02:02:31.000Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "664e9b8b1d0861e28a85d255"
+  },
+  "title": "Karaoke Party: Sing Your Heart Out",
+  "description": "It's time to unleash your inner rock star at our karaoke party in Cologne! Sing your favorite songs, show off your vocal talents, and enjoy a night of music and camaraderie with friends. Let's make memories and create unforgettable moments together!",
+  "location": "Cologne - Germany",
+  "imageUrl": "https://utfs.io/f/13ea0186-2dba-44e9-8fb2-6553c99b46f4-2nce02.jpg",
+  "startDateTime": {
+    "$date": "2025-03-07T07:40:00.000Z"
+  },
+  "endDateTime": {
+    "$date": "2025-03-07T12:20:00.000Z"
+  },
+  "price": "15",
+  "isFree": false,
+  "url": "https://eventful-jade.vercel.app/",
+  "category": {
+    "$oid": "6633ca1f6dc6def64cfa3c50"
+  },
+  "organizer": {
+    "$oid": "662b6a1ea1a18c8afa5efffd"
+  },
+  "attendees": [],
+  "createdAt": {
+    "$date": "2024-12-24T02:02:43.000Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "664e9bb01d0861e28a85d256"
+  },
+  "title": "Workshop: Mastering Time Management",
+  "description": "Learn the art of effective time management at our workshop in Hamburg! Discover proven strategies for prioritizing tasks, setting goals, and maximizing productivity. Gain valuable insights and practical techniques to achieve your personal and professional objectives.",
+  "location": "Hamburg - Germany",
+  "imageUrl": "https://utfs.io/f/bcd2f5c6-db41-48e6-9b9d-8226189ae6da-fiqstj.jpg",
+  "startDateTime": {
+    "$date": "2025-01-25T20:40:00.000Z"
+  },
+  "endDateTime": {
+    "$date": "2025-01-26T00:40:00.000Z"
+  },
+  "price": "40",
+  "isFree": false,
+  "url": "https://eventful-jade.vercel.app/",
+  "category": {
+    "$oid": "6633ca2e6dc6def64cfa3c52"
+  },
+  "organizer": {
+    "$oid": "662b6a1ea1a18c8afa5efffd"
+  },
+  "attendees": [],
+  "createdAt": {
+    "$date": "2024-12-24T02:03:00.000Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "664e9bd21d0861e28a85d257"
+  },
+  "title": "Seminar: Unlocking Your Creative Potential",
+  "description": "Unleash your creativity at our seminar in Frankfurt! Explore techniques for tapping into your creative side, overcoming blocks, and generating innovative ideas. Whether you're an artist, entrepreneur, or professional, this event will inspire and empower you to think outside the box.",
+  "location": "Frankfurt - Germany",
+  "imageUrl": "https://utfs.io/f/85df2b30-d5a0-4540-b089-3e377d5dfa30-t0wt0g.jpg",
+  "startDateTime": {
+    "$date": "2025-02-11T08:40:00.000Z"
+  },
+  "endDateTime": {
+    "$date": "2025-02-11T08:40:00.000Z"
+  },
+  "price": "20",
+  "isFree": false,
+  "url": "https://eventful-jade.vercel.app/",
+  "category": {
+    "$oid": "6633ca2e6dc6def64cfa3c52"
+  },
+  "organizer": {
+    "$oid": "662b6a1ea1a18c8afa5efffd"
+  },
+  "attendees": [],
+  "createdAt": {
+    "$date": "2024-12-24T02:03:22.000Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "664e9bf21d0861e28a85d258"
+  },
+  "title": "Leadership Workshop: Empowering Tomorrow's Leaders",
+  "description": "Join our leadership workshop in Berlin and develop the skills needed to become a successful leader! Learn effective communication, decision-making, and team-building techniques from industry experts. Empower yourself to lead with confidence and inspire positive change in your organization.",
+  "location": "Berlin - Germany",
+  "imageUrl": "https://utfs.io/f/10c6eef0-d77b-453e-aefc-2aa536bb0669-hly5d1.jpg",
+  "startDateTime": {
+    "$date": "2025-02-21T23:20:00.000Z"
+  },
+  "endDateTime": {
+    "$date": "2025-02-22T05:00:00.000Z"
+  },
+  "price": "50",
+  "isFree": false,
+  "url": "https://eventful-jade.vercel.app/",
+  "category": {
+    "$oid": "6633ca2e6dc6def64cfa3c52"
+  },
+  "organizer": {
+    "$oid": "662b6a1ea1a18c8afa5efffd"
+  },
+  "attendees": [],
+  "createdAt": {
+    "$date": "2024-12-24T02:03:46.000Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "664e9c0e1d0861e28a85d259"
+  },
+  "title": "Financial Literacy Seminar: Managing Your Finances Wisely",
+  "description": "Gain essential financial knowledge at our seminar in Munich! Learn how to budget effectively, invest wisely, and plan for a secure financial future. Whether you're just starting your career or looking to enhance your financial skills, this seminar is for you.",
+  "location": "Munich - Germany",
+  "imageUrl": "https://utfs.io/f/7885c909-e91e-4b21-b2c8-46cfe84dbf4b-9i3ya2.jpg",
+  "startDateTime": {
+    "$date": "2025-03-02T10:20:00.000Z"
+  },
+  "endDateTime": {
+    "$date": "2025-03-02T13:20:00.000Z"
+  },
+  "price": "0",
+  "isFree": true,
+  "url": "https://eventful-jade.vercel.app/",
+  "category": {
+    "$oid": "6633ca2e6dc6def64cfa3c52"
+  },
+  "organizer": {
+    "$oid": "662b6a1ea1a18c8afa5efffd"
+  },
+  "attendees": [],
+  "createdAt": {
+    "$date": "2024-12-24T02:04:06.000Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "664e9c261d0861e28a85d25a"
+  },
+  "title": "Personal Development Workshop: Building Resilience and Well-Being",
+  "description": "Invest in your personal growth at our workshop in Cologne! Discover strategies for building resilience, managing stress, and enhancing overall well-being. Empower yourself to thrive in both your personal and professional life with practical tools and insights.",
+  "location": "Cologne - Germany",
+  "imageUrl": "https://utfs.io/f/0a0a90ad-916d-474a-b598-ed293e10f6d0-orh4h1.jpg",
+  "startDateTime": {
+    "$date": "2025-03-19T00:40:00.000Z"
+  },
+  "endDateTime": {
+    "$date": "2025-03-19T11:20:00.000Z"
+  },
+  "price": "30",
+  "isFree": false,
+  "url": "https://eventful-jade.vercel.app/",
+  "category": {
+    "$oid": "6633ca2e6dc6def64cfa3c52"
+  },
+  "organizer": {
+    "$oid": "662b6a1ea1a18c8afa5efffd"
+  },
+  "attendees": [],
+  "createdAt": {
+    "$date": "2024-12-24T02:04:22.000Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "664e9c511d0861e28a85d25b"
+  },
+  "title": "Marathon: Run for a Cause",
+  "description": "Lace up your running shoes and join us for a marathon in Berlin! Whether you're a seasoned runner or just starting out, this event is for you. Run for a cause and support local charities while enjoying the thrill of competition and camaraderie.",
+  "location": "Berlin - Germany",
+  "imageUrl": "https://utfs.io/f/e709550c-9e0f-429a-9356-6a1ac9716485-rkdkgf.jpg",
+  "startDateTime": {
+    "$date": "2025-01-25T16:40:00.000Z"
+  },
+  "endDateTime": {
+    "$date": "2025-01-25T22:26:40.000Z"
+  },
+  "price": "35",
+  "isFree": false,
+  "url": "https://eventful-jade.vercel.app/",
+  "category": {
+    "$oid": "6633ca3b6dc6def64cfa3c54"
+  },
+  "organizer": {
+    "$oid": "662b6a1ea1a18c8afa5efffd"
+  },
+  "attendees": [],
+  "createdAt": {
+    "$date": "2024-12-24T02:04:57.000Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "664e9c6d1d0861e28a85d25c"
+  },
+  "title": "Yoga in the Park: Find Your Zen",
+  "description": "Connect with nature and rejuvenate your mind, body, and spirit at our yoga event in Munich! Join us for a relaxing session in the park, suitable for all levels. Bring your yoga mat and embrace the tranquility of outdoor practice.",
+  "location": "Munich - Germany",
+  "imageUrl": "https://utfs.io/f/4b857cf2-fd68-4486-8ee0-926cf49f8931-i7t5at.jpg",
+  "startDateTime": {
+    "$date": "2025-02-11T05:40:00.000Z"
+  },
+  "endDateTime": {
+    "$date": "2025-02-11T06:56:40.000Z"
+  },
+  "price": "0",
+  "isFree": true,
+  "url": "https://eventful-jade.vercel.app/",
+  "category": {
+    "$oid": "6633ca3b6dc6def64cfa3c54"
+  },
+  "organizer": {
+    "$oid": "662b6a1ea1a18c8afa5efffd"
+  },
+  "attendees": [],
+  "createdAt": {
+    "$date": "2024-12-24T02:05:25.000Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "664e9c8b1d0861e28a85d25d"
+  },
+  "title": "Soccer Tournament: Battle of the Champions",
+  "description": "Get ready for an exhilarating soccer tournament in Hamburg! Gather your team and compete against others for the title of champion. Enjoy a weekend of thrilling matches, teamwork, and friendly competition in a vibrant atmosphere.",
+  "location": "Hamburg - Germany",
+  "imageUrl": "https://utfs.io/f/02230be6-27fb-4094-bee0-279a15114943-2ebsk6.jpg",
+  "startDateTime": {
+    "$date": "2025-02-21T20:20:00.000Z"
+  },
+  "endDateTime": {
+    "$date": "2025-02-22T20:20:00.000Z"
+  },
+  "price": "50",
+  "isFree": false,
+  "url": "https://eventful-jade.vercel.app/",
+  "category": {
+    "$oid": "6633ca3b6dc6def64cfa3c54"
+  },
+  "organizer": {
+    "$oid": "662b6a1ea1a18c8afa5efffd"
+  },
+  "attendees": [],
+  "createdAt": {
+    "$date": "2024-12-24T02:05:55.000Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "664e9caa1d0861e28a85d25e"
+  },
+  "title": "Cycling Tour: Explore the Countryside",
+  "description": "Embark on a scenic cycling tour and discover the beauty of the countryside around Cologne! Pedal through picturesque landscapes, quaint villages, and serene trails. Whether you're a casual rider or a cycling enthusiast, this tour offers something for everyone.",
+  "location": "Cologne - Germany",
+  "imageUrl": "https://utfs.io/f/426eb5d4-2b7e-4675-a66e-589ad1441548-yubqsp.jpg",
+  "startDateTime": {
+    "$date": "2025-03-02T07:20:00.000Z"
+  },
+  "endDateTime": {
+    "$date": "2025-03-02T17:20:00.000Z"
+  },
+  "price": "25",
+  "isFree": false,
+  "url": "https://eventful-jade.vercel.app/",
+  "category": {
+    "$oid": "6633ca3b6dc6def64cfa3c54"
+  },
+  "organizer": {
+    "$oid": "662b6a1ea1a18c8afa5efffd"
+  },
+  "attendees": [],
+  "createdAt": {
+    "$date": "2024-12-24T02:06:26.000Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "664e9cce1d0861e28a85d25f"
+  },
+  "title": "Swimming Challenge: Conquer the Waves",
+  "description": "Dive into adventure and take on our swimming challenge in Frankfurt! Test your endurance and swim skills as you conquer the waves. Whether you're a beginner or a seasoned swimmer, this event promises excitement and a sense of accomplishment.",
+  "location": "Frankfurt - Germany",
+  "imageUrl": "https://utfs.io/f/9b5c961b-4fce-4c82-8d5e-44ed881673fe-wt6ux9.jpg",
+  "startDateTime": {
+    "$date": "2025-03-18T21:40:00.000Z"
+  },
+  "endDateTime": {
+    "$date": "2025-03-19T03:33:20.000Z"
+  },
+  "price": "20",
+  "isFree": false,
+  "url": "https://eventful-jade.vercel.app/",
+  "category": {
+    "$oid": "6633ca3b6dc6def64cfa3c54"
+  },
+  "organizer": {
+    "$oid": "662b6a1ea1a18c8afa5efffd"
+  },
+  "attendees": [],
+  "createdAt": {
+    "$date": "2024-12-24T02:06:54.000Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "664e9d021d0861e28a85d260"
+  },
+  "title": "Hiking Expedition: Summiting Majestic Peaks",
+  "description": "Embark on an unforgettable hiking expedition and conquer the majestic peaks of the Bavarian Alps! Explore breathtaking landscapes, lush forests, and panoramic views. Whether you're an experienced hiker or new to the trails, this adventure promises thrills and unforgettable memories.",
+  "location": "Bavarian Alps - Germany",
+  "imageUrl": "https://utfs.io/f/2e893aeb-3467-4013-940d-cd11b3c8b84e-yl864o.jpg",
+  "startDateTime": {
+    "$date": "2025-01-25T16:40:00.000Z"
+  },
+  "endDateTime": {
+    "$date": "2025-01-26T22:26:40.000Z"
+  },
+  "price": "75",
+  "isFree": false,
+  "url": "https://eventful-jade.vercel.app/",
+  "category": {
+    "$oid": "6633ca4b6dc6def64cfa3c56"
+  },
+  "organizer": {
+    "$oid": "662b6a1ea1a18c8afa5efffd"
+  },
+  "attendees": [],
+  "createdAt": {
+    "$date": "2024-12-24T02:07:28.000Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "664e9d1d1d0861e28a85d261"
+  },
+  "title": "Camping Retreat: Under the Starlit Sky",
+  "description": "Escape the hustle and bustle of city life and immerse yourself in nature with our camping retreat in the Black Forest! Set up camp under the starlit sky, roast marshmallows around the campfire, and connect with fellow nature enthusiasts. Let the tranquility of the forest rejuvenate your soul.",
+  "location": "Black Forest - Germany",
+  "imageUrl": "https://utfs.io/f/10e851e0-cbc8-41ae-8ad9-ea379f47b150-j80aey.jpg",
+  "startDateTime": {
+    "$date": "2025-02-11T05:40:00.000Z"
+  },
+  "endDateTime": {
+    "$date": "2025-02-12T08:40:00.000Z"
+  },
+  "price": "60",
+  "isFree": false,
+  "url": "https://eventful-jade.vercel.app/",
+  "category": {
+    "$oid": "6633ca4b6dc6def64cfa3c56"
+  },
+  "organizer": {
+    "$oid": "662b6a1ea1a18c8afa5efffd"
+  },
+  "attendees": [],
+  "createdAt": {
+    "$date": "2024-12-24T02:07:57.000Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "664e9d381d0861e28a85d262"
+  },
+  "title": "River Rafting Adventure: Ride the Rapids",
+  "description": "Experience the thrill of river rafting on the legendary Rhine River! Navigate through exhilarating rapids, admire scenic landscapes, and bond with your crew as you conquer the waters together. Whether you're an adrenaline junkie or seeking a new adventure, this experience is sure to delight.",
+  "location": "Rhine River - Germany",
+  "imageUrl": "https://utfs.io/f/b28dceaa-71e1-4492-bd6f-026c8942b543-3zqoho.jpg",
+  "startDateTime": {
+    "$date": "2025-02-21T17:20:00.000Z"
+  },
+  "endDateTime": {
+    "$date": "2025-02-22T03:20:00.000Z"
+  },
+  "price": "90",
+  "isFree": false,
+  "url": "https://eventful-jade.vercel.app/",
+  "category": {
+    "$oid": "6633ca4b6dc6def64cfa3c56"
+  },
+  "organizer": {
+    "$oid": "662b6a1ea1a18c8afa5efffd"
+  },
+  "attendees": [],
+  "createdAt": {
+    "$date": "2024-12-24T02:08:24.000Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "664e9d541d0861e28a85d263"
+  },
+  "title": "Hot Air Balloon Ride: Soar Above the Clouds",
+  "description": "Take to the skies and embark on a magical hot air balloon ride over the stunning landscapes of Bavaria! Drift serenely above picturesque villages, rolling hills, and lush vineyards as the sun rises on the horizon. This unforgettable adventure promises breathtaking views and cherished memories.",
+  "location": "Bavaria - Germany",
+  "imageUrl": "https://utfs.io/f/214e89ea-6e13-4736-a0e7-0f9f8ac0ce0b-98gqjg.jpg",
+  "startDateTime": {
+    "$date": "2025-03-02T05:20:00.000Z"
+  },
+  "endDateTime": {
+    "$date": "2025-03-02T09:20:00.000Z"
+  },
+  "price": "150",
+  "isFree": false,
+  "url": "https://eventful-jade.vercel.app/",
+  "category": {
+    "$oid": "6633ca4b6dc6def64cfa3c56"
+  },
+  "organizer": {
+    "$oid": "662b6a1ea1a18c8afa5efffd"
+  },
+  "attendees": [],
+  "createdAt": {
+    "$date": "2024-12-24T02:08:52.000Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "664e9d6c1d0861e28a85d264"
+  },
+  "title": "Road Trip Expedition: Discover Hidden Gems",
+  "description": "Hit the open road and embark on an epic road trip along the scenic Romantic Road! Explore charming medieval towns, fairytale castles, and picturesque landscapes as you journey through Germany's historic heartland. This adventure is perfect for adventurers seeking freedom and discovery.",
+  "location": "Romantic Road - Germany",
+  "imageUrl": "https://utfs.io/f/c72b9ba5-111f-49bb-ada9-02c19001b94e-73gurr.jpg",
+  "startDateTime": {
+    "$date": "2025-03-18T17:20:00.000Z"
+  },
+  "endDateTime": {
+    "$date": "2025-03-20T17:20:00.000Z"
+  },
+  "price": "200",
+  "isFree": false,
+  "url": "https://eventful-jade.vercel.app/",
+  "category": {
+    "$oid": "6633ca4b6dc6def64cfa3c56"
+  },
+  "organizer": {
+    "$oid": "662b6a1ea1a18c8afa5efffd"
+  },
+  "attendees": [],
+  "createdAt": {
+    "$date": "2024-12-24T02:09:16.000Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "664e9dc41d0861e28a85d265"
+  },
+  "title": "German Beer Tasting: Brews of Bavaria",
+  "description": "Dive into the rich world of German beer with our Bavarian beer tasting event! Sample a variety of traditional brews and learn about the brewing process from expert brewers. Prost!",
+  "location": "Munich - Germany",
+  "imageUrl": "https://utfs.io/f/3dfbc9d0-7e43-4900-9796-917dbc7ffa3a-90g21j.jpg",
+  "startDateTime": {
+    "$date": "2025-02-07T22:00:00.000Z"
+  },
+  "endDateTime": {
+    "$date": "2025-02-08T02:00:00.000Z"
+  },
+  "price": "50",
+  "isFree": false,
+  "url": "https://eventful-jade.vercel.app/",
+  "category": {
+    "$oid": "6633c96a552b7fe05d0085f2"
+  },
+  "organizer": {
+    "$oid": "662b6a1ea1a18c8afa5efffd"
+  },
+  "attendees": [],
+  "createdAt": {
+    "$date": "2024-12-24T02:10:04.000Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "664e9de21d0861e28a85d266"
+  },
+  "title": "Chocolate Truffle Making Workshop",
+  "description": "Indulge your sweet tooth with our chocolate truffle making workshop in Cologne! Learn the art of crafting decadent chocolate truffles from scratch and savor the rich flavors of premium chocolate. A deliciously fun experience for chocolate lovers!",
+  "location": "Cologne - Germany",
+  "imageUrl": "https://utfs.io/f/191a3aeb-346c-4c92-9fd9-eba23394cf07-g75jq.jpg",
+  "startDateTime": {
+    "$date": "2025-02-05T17:40:00.000Z"
+  },
+  "endDateTime": {
+    "$date": "2025-02-05T23:00:00.000Z"
+  },
+  "price": "70",
+  "isFree": false,
+  "url": "https://eventful-jade.vercel.app/",
+  "category": {
+    "$oid": "6633c96a552b7fe05d0085f2"
+  },
+  "organizer": {
+    "$oid": "662b6a1ea1a18c8afa5efffd"
+  },
+  "attendees": [],
+  "createdAt": {
+    "$date": "2024-12-24T02:10:42.000Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "664e9dfb1d0861e28a85d267"
+  },
+  "title": "Oktoberfest Feast: Authentic German Cuisine",
+  "description": "Celebrate Oktoberfest with an unforgettable feast of authentic German cuisine in Berlin! Enjoy classic dishes such as bratwurst, sauerkraut, and pretzels, paired with traditional German beers. Ein Prosit!",
+  "location": "Berlin - Germany",
+  "imageUrl": "https://utfs.io/f/96855029-d9fe-4b04-960f-f88e45ca8288-vu2etd.jpg",
+  "startDateTime": {
+    "$date": "2025-03-03T04:40:00.000Z"
+  },
+  "endDateTime": {
+    "$date": "2025-03-03T08:40:00.000Z"
+  },
+  "price": "80",
+  "isFree": false,
+  "url": "https://eventful-jade.vercel.app/",
+  "category": {
+    "$oid": "6633c96a552b7fe05d0085f2"
+  },
+  "organizer": {
+    "$oid": "662b6a1ea1a18c8afa5efffd"
+  },
+  "attendees": [],
+  "createdAt": {
+    "$date": "2024-12-24T02:11:07.000Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "664e9e131d0861e28a85d268"
+  },
+  "title": "Wine Tasting: Wines of the Rhine Valley",
+  "description": "Join our wine tasting event and explore the exquisite wines of the Rhine Valley from the comfort of your home! Guided by sommeliers, discover the unique characteristics of each wine and learn about the terroir of this renowned wine region.",
+  "location": "Rhine Valley - Germany",
+  "imageUrl": "https://utfs.io/f/253bd4b3-d852-49e7-892e-77a0c8149246-s8o8u.jpg",
+  "startDateTime": {
+    "$date": "2025-03-18T15:20:00.000Z"
+  },
+  "endDateTime": {
+    "$date": "2025-03-18T17:20:00.000Z"
+  },
+  "price": "60",
+  "isFree": false,
+  "url": "https://eventful-jade.vercel.app/",
+  "category": {
+    "$oid": "6633c96a552b7fe05d0085f2"
+  },
+  "organizer": {
+    "$oid": "662b6a1ea1a18c8afa5efffd"
+  },
+  "attendees": [],
+  "createdAt": {
+    "$date": "2024-12-24T02:11:31.000Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "664e9e2d1d0861e28a85d269"
+  },
+  "title": "Culinary Tour: Taste of Hamburg Street Food",
+  "description": "Embark on a culinary adventure through the streets of Hamburg and indulge in the city's vibrant street food scene! Sample a variety of local delicacies, from currywurst to fish sandwiches, as you explore the rich culinary heritage of Hamburg.",
+  "location": "Hamburg - Germany",
+  "imageUrl": "https://utfs.io/f/569b237c-80d0-4b0d-9f59-721c1873885d-ojniqy.jpg",
+  "startDateTime": {
+    "$date": "2025-04-10T01:20:00.000Z"
+  },
+  "endDateTime": {
+    "$date": "2025-04-10T05:20:00.000Z"
+  },
+  "price": "0",
+  "isFree": true,
+  "url": "https://eventful-jade.vercel.app/",
+  "category": {
+    "$oid": "6633c96a552b7fe05d0085f2"
+  },
+  "organizer": {
+    "$oid": "662b6a1ea1a18c8afa5efffd"
+  },
+  "attendees": [],
+  "createdAt": {
+    "$date": "2024-12-24T02:11:57.000Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "664e9f391d0861e28a85d26a"
+  },
+  "title": "Rimberio Ban: Live Jazz Extravaganza",
+  "description": "Immerse yourself in an unforgettable evening of live jazz music with Rimberio Ban! Join us for an electrifying performance featuring soulful melodies and vibrant rhythms. Let the music transport you to new heights of musical bliss. Don't miss this sensational jazz experience!",
+  "location": "Düsseldorf - Germany",
+  "imageUrl": "https://utfs.io/f/ec419f6b-534d-4cc8-b2fb-bee04ca17687-eq03ms.jpg",
+  "startDateTime": {
+    "$date": "2024-11-27T09:40:00.000Z"
+  },
+  "endDateTime": {
+    "$date": "2024-11-27T18:40:00.000Z"
+  },
+  "price": "250",
+  "isFree": false,
+  "url": "https://eventful-jade.vercel.app/",
+  "category": {
+    "$oid": "66336cef31d1c3d5651bf050"
+  },
+  "organizer": {
+    "$oid": "662b6a1ea1a18c8afa5efffd"
+  },
+  "attendees": [],
+  "createdAt": {
+    "$date": "2024-12-24T02:13:13.000Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "664e9f4e1d0861e28a85d26b"
+  },
+  "title": "Art Festival Cologne 2024 at Messe Köln",
+  "description": "Dive into a kaleidoscope of creativity at Art Festival Cologne 2024, hosted at Messe Köln! Explore a vibrant showcase of contemporary art from around the globe, featuring innovative works across various mediums. Immerse yourself in a cultural extravaganza celebrating the boundless imagination of artists. Join us for an inspiring journey through the world of art!",
+  "location": "Cologne - Germany",
+  "imageUrl": "https://utfs.io/f/87ca1133-f837-491b-addb-34ecc7cca967-qm17p2.jpg",
+  "startDateTime": {
+    "$date": "2025-03-04T12:40:00.000Z"
+  },
+  "endDateTime": {
+    "$date": "2025-03-04T21:40:00.000Z"
+  },
+  "price": "0",
+  "isFree": true,
+  "url": "https://eventful-jade.vercel.app/",
+  "category": {
+    "$oid": "66336cef31d1c3d5651bf050"
+  },
+  "organizer": {
+    "$oid": "662b6a1ea1a18c8afa5efffd"
+  },
+  "attendees": [],
+  "createdAt": {
+    "$date": "2024-12-24T02:13:34.000Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "664e9f621d0861e28a85d26c"
+  },
+  "title": "Digital Art Day 2024: Online Workshop",
+  "description": "Unleash your creativity on Friday, May 17th, with our Art Day 2024 online workshop! Join us for a day filled with interactive sessions led by talented artists. From painting to sculpture, explore a variety of techniques and mediums from the comfort of your home. Get ready to ignite your artistic spark and connect with fellow art enthusiasts worldwide. ",
+  "location": "online",
+  "imageUrl": "https://utfs.io/f/432f53fe-d3db-451c-90f4-27618d0c29bd-gyddhh.jpg",
+  "startDateTime": {
+    "$date": "2025-03-04T12:40:00.000Z"
+  },
+  "endDateTime": {
+    "$date": "2025-03-04T21:40:00.000Z"
+  },
+  "price": "99",
+  "isFree": false,
+  "url": "https://eventful-jade.vercel.app/",
+  "category": {
+    "$oid": "66336cef31d1c3d5651bf050"
+  },
+  "organizer": {
+    "$oid": "662b6a1ea1a18c8afa5efffd"
+  },
+  "attendees": [],
+  "createdAt": {
+    "$date": "2024-12-24T02:13:54.000Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "664e9f7a1d0861e28a85d26d"
+  },
+  "title": "Melodies in the Garden: Aaron Loeb Live",
+  "description": "Enjoy music in the garden with Aaron Loeb's captivating performance. Join us for an enchanting evening filled with soulful tunes under the stars. Unwind in nature's embrace as melodies transport you to a realm of tranquility and joy.",
+  "location": "Berlin - Germany",
+  "imageUrl": "https://utfs.io/f/8de57632-c0f1-496c-938c-6d90b071adfa-42a913.jpg",
+  "startDateTime": {
+    "$date": "2024-11-27T09:40:00.000Z"
+  },
+  "endDateTime": {
+    "$date": "2024-11-27T18:40:00.000Z"
+  },
+  "price": "199",
+  "isFree": false,
+  "url": "https://eventful-jade.vercel.app/",
+  "category": {
+    "$oid": "66336cef31d1c3d5651bf050"
+  },
+  "organizer": {
+    "$oid": "662b6a1ea1a18c8afa5efffd"
+  },
+  "attendees": [],
+  "createdAt": {
+    "$date": "2024-12-24T02:14:22.000Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "664e9f8d1d0861e28a85d26e"
+  },
+  "title": "Celebrating Indonesian Heritage: Batik Day Workshop for Kids",
+  "description": "Celebrate Batik Day on October 2nd! Join our workshop where kids explore this traditional Indonesian art. They'll learn to apply wax and dye fabric, creating unique designs. An engaging cultural experience for young minds!",
+  "location": "Bonn - Germany",
+  "imageUrl": "https://utfs.io/f/42f174c3-83cf-4d59-8954-c132e8cded56-mtylo2.jpg",
+  "startDateTime": {
+    "$date": "2025-03-04T12:40:00.000Z"
+  },
+  "endDateTime": {
+    "$date": "2025-03-04T21:40:00.000Z"
+  },
+  "price": "0",
+  "isFree": true,
+  "url": "https://eventful-jade.vercel.app/",
+  "category": {
+    "$oid": "66336cef31d1c3d5651bf050"
+  },
+  "organizer": {
+    "$oid": "662b6a1ea1a18c8afa5efffd"
+  },
+  "attendees": [],
+  "createdAt": {
+    "$date": "2024-12-24T02:14:45.000Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "664e9fae1d0861e28a85d26f"
+  },
+  "title": "Clean-Up Day: Protecting Our Oceans",
+  "description": "Join us for a community clean-up day and make a difference in protecting our oceans! Together, we'll remove litter and debris from local beaches and shorelines, promoting marine conservation and preserving the beauty of our marine ecosystems. Let's work together for a cleaner, healthier planet!",
+  "location": "Hamburg - Germany",
+  "imageUrl": "https://utfs.io/f/9b0d1a96-03d6-4a2c-80fb-82f0ff2b6319-2kvh9c.jpg",
+  "startDateTime": {
+    "$date": "2025-01-15T20:20:00.000Z"
+  },
+  "endDateTime": {
+    "$date": "2025-01-16T02:20:00.000Z"
+  },
+  "price": "0",
+  "isFree": true,
+  "url": "https://eventful-jade.vercel.app/",
+  "category": {
+    "$oid": "6633ca046dc6def64cfa3c4b"
+  },
+  "organizer": {
+    "$oid": "662b6a1ea1a18c8afa5efffd"
+  },
+  "attendees": [],
+  "createdAt": {
+    "$date": "2024-12-24T02:15:42.000Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "664e9fc11d0861e28a85d270"
+  },
+  "title": "Sustainable Fashion Workshop: Upcycling Clothing",
+  "description": "Discover the art of upcycling clothing and embrace sustainable fashion at our workshop in Berlin! Learn creative techniques to transform old garments into stylish new pieces, reducing textile waste and promoting a circular fashion economy. Join the movement towards a more sustainable wardrobe!",
+  "location": "Berlin - Germany",
+  "imageUrl": "https://utfs.io/f/1cab45d4-c789-475e-9a8e-3eeae8051bd3-whgocz.jpg",
+  "startDateTime": {
+    "$date": "2025-03-04T12:40:00.000Z"
+  },
+  "endDateTime": {
+    "$date": "2025-03-04T17:33:20.000Z"
+  },
+  "price": "25",
+  "isFree": false,
+  "url": "https://eventful-jade.vercel.app/",
+  "category": {
+    "$oid": "6633ca046dc6def64cfa3c4b"
+  },
+  "organizer": {
+    "$oid": "662b6a1ea1a18c8afa5efffd"
+  },
+  "attendees": [],
+  "createdAt": {
+    "$date": "2024-12-24T02:16:01.000Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "664e9fd11d0861e28a85d271"
+  },
+  "title": "Renewable Energy Expo: Powering the Future",
+  "description": "Explore the latest innovations in renewable energy at our expo in Munich! Discover cutting-edge technologies and sustainable solutions for powering the future, from solar and wind energy to hydrogen fuel cells and beyond. Join us in building a cleaner, greener world!",
+  "location": "Munich - Germany",
+  "imageUrl": "https://utfs.io/f/ae34afbb-3ef6-4aa3-b979-c0b5b94736a6-5o1u91.jpg",
+  "startDateTime": {
+    "$date": "2025-02-10T00:40:00.000Z"
+  },
+  "endDateTime": {
+    "$date": "2025-02-11T00:40:00.000Z"
+  },
+  "price": "35",
+  "isFree": false,
+  "url": "https://eventful-jade.vercel.app/",
+  "category": {
+    "$oid": "6633ca046dc6def64cfa3c4b"
+  },
+  "organizer": {
+    "$oid": "662b6a1ea1a18c8afa5efffd"
+  },
+  "attendees": [],
+  "createdAt": {
+    "$date": "2024-12-24T02:16:21.000Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "664e9fe01d0861e28a85d272"
+  },
+  "title": "Tree Planting Initiative: Greening Our Cities",
+  "description": "Be a part of our tree planting initiative and contribute to greening our cities! Join us in Frankfurt as we plant native trees and shrubs, enhancing urban green spaces, improving air quality, and fostering biodiversity. Let's create a healthier, more sustainable future together!",
+  "location": "Frankfurt - Germany",
+  "imageUrl": "https://utfs.io/f/59150f26-8b40-4941-90bd-e2640c3fc054-ebm6rb.jpg",
+  "startDateTime": {
+    "$date": "2025-01-31T19:20:00.000Z"
+  },
+  "endDateTime": {
+    "$date": "2025-02-01T02:20:00.000Z"
+  },
+  "price": "0",
+  "isFree": true,
+  "url": "https://eventful-jade.vercel.app/",
+  "category": {
+    "$oid": "6633ca046dc6def64cfa3c4b"
+  },
+  "organizer": {
+    "$oid": "662b6a1ea1a18c8afa5efffd"
+  },
+  "attendees": [],
+  "createdAt": {
+    "$date": "2024-12-24T02:16:40.000Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "664e9ff01d0861e28a85d273"
+  },
+  "title": "Environmental Education Workshop: Inspiring Future Stewards",
+  "description": "Empower the next generation of environmental stewards with our educational workshop in Cologne! Engage students in hands-on activities, interactive lessons, and outdoor experiences to foster a deeper understanding of environmental issues and inspire a lifelong commitment to sustainability.",
+  "location": "Cologne - Germany",
+  "imageUrl": "https://utfs.io/f/e51072bd-8f9a-4870-91b1-2a4c28e2c0a1-4xn9ms.jpg",
+  "startDateTime": {
+    "$date": "2025-01-16T07:00:00.000Z"
+  },
+  "endDateTime": {
+    "$date": "2025-01-16T16:00:00.000Z"
+  },
+  "price": "30",
+  "isFree": false,
+  "url": "https://eventful-jade.vercel.app/",
+  "category": {
+    "$oid": "6633ca046dc6def64cfa3c4b"
+  },
+  "organizer": {
+    "$oid": "662b6a1ea1a18c8afa5efffd"
+  },
+  "attendees": [],
+  "createdAt": {
+    "$date": "2024-12-24T02:16:56.000Z"
+  },
+  "__v": 0
+}]
