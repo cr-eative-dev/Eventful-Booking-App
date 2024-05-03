@@ -23,7 +23,7 @@ export const metadata: Metadata = {
   title: "Eventful",
   description: "The easiest way to experience the future of events.",
   icons: {
-    icon: "/assets/icons/stern.svg",
+    icon: "/assets/icons/sternFav.png",
   },
 };
 

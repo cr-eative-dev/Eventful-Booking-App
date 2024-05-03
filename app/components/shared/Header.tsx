@@ -14,7 +14,7 @@ import {
 } from "@clerk/nextjs";
 import NavItems from "./NavItems";
 import MobileNavBar from "./MobileNavBar";
-import Logo from "@/app/components/shared/Logo";
+import Image from "next/image";
 
 const Header = () => {
   const { theme } = useTheme();
@@ -22,8 +22,21 @@ const Header = () => {
   return (
     <header className="w-full border-b">
       <div className="wrapper flex flex-col gap-6 md:flex-row justify-between items-center">
-        <Link href={"/"} className="flex gap-1 w-36 items-center">
-          <Logo className="text-black dark:text-white" />
+        <Link href={"/"} className="flexw-36">
+          <Image
+            src="/assets/images/logo-white.png"
+            width={164}
+            height={38}
+            alt="Eventful logo"
+            className="hidden dark:block"
+          />
+          <Image
+            src="/assets/images/logo-black.png"
+            width={164}
+            height={38}
+            alt="Eventful logo black"
+            className="flex-center dark:hidden"
+          />
         </Link>
 
         <SignedIn>
