@@ -54,7 +54,7 @@
 
 @layer base {
   * {
-    @apply border-border scrollbar-stable scrollbar-both-edges;
+    @apply border-border scrollbar-none;
   }
   body {
     @apply bg-background text-foreground;
