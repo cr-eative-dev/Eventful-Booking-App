@@ -13,7 +13,7 @@ const Orders = async ({ searchParams }: SearchParamProps) => {
   return (
     <>
       <section className=" bg-primary-50 bg-dotted-pattern bg-cover bg-center py-5 md:py-10">
-        <h3 className="wrapper h4-bold text-center sm:text-center ">
+        <h3 className="wrapper h4-bold text-center sm:text-left">
           <span className="border px-7 py-4 rounded-full border-neongreen">
             Orders
           </span>
