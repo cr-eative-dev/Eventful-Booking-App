@@ -111,7 +111,7 @@
 }
 
 .h4-bold {
-  @apply font-medium text-[28px] leading-[40px];
+  @apply font-medium text-[18px] leading-[40px];
 }
 
 /* 28 */
