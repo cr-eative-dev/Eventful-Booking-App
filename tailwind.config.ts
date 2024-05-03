@@ -1,5 +1,10 @@
 /** @type {import('tailwindcss').Config} */
 import { withUt } from "uploadthing/tw";
+import {
+  scrollbarGutter,
+  scrollbarWidth,
+  scrollbarColor,
+} from "tailwind-scrollbar-utilities";
 
 module.exports = withUt({
   darkMode: ["class"],
@@ -80,5 +85,10 @@ module.exports = withUt({
       },
     },
   },
-  plugins: [require("tailwindcss-animate")],
+  plugins: [
+    require("tailwindcss-animate"),
+    scrollbarGutter(),
+    scrollbarWidth(),
+    scrollbarColor(),
+  ],
 });
