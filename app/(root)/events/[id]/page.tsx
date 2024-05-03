@@ -12,6 +12,8 @@ import {
   CalendarCheck2,
   CalendarX2,
   MapPin,
+  Link,
+  ExternalLink,
 } from "lucide-react";
 
 const EventDetails = async ({
@@ -90,7 +92,11 @@ const EventDetails = async ({
                 {event.description}
               </p>
               <p className="p-medium-16 lg:p-regular-18 truncate text-primary-500 underline cursor-pointer">
-                {event.url}
+                {/* {event.url} */}
+                  Mehr Informationen
+                <a href={event.url} target="_blank">
+                  <ExternalLink />
+                </a>
               </p>
             </div>
 
