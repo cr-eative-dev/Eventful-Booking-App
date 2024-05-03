@@ -29,7 +29,7 @@ export const DeleteConfirmation = ({ eventId }: { eventId: string }) => {
         <Trash2 className="transition duration-50 hover:scale-110" />
       </AlertDialogTrigger>
 
-      <AlertDialogContent className="bg-white">
+      <AlertDialogContent className="bg-white dark:bg-black">
         <AlertDialogHeader>
           <AlertDialogTitle>Are you sure you want to delete?</AlertDialogTitle>
           <AlertDialogDescription className="p-regular-16 text-grey-600">
@@ -41,6 +41,7 @@ export const DeleteConfirmation = ({ eventId }: { eventId: string }) => {
           <AlertDialogCancel>Cancel</AlertDialogCancel>
 
           <AlertDialogAction
+            className="bg-lime-600 hover:bg-neongreen text-black"
             onClick={() =>
               startTransition(async () => {
                 await deleteEvent({ eventId, path: pathname });

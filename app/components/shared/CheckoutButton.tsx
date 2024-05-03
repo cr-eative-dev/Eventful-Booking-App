@@ -23,7 +23,7 @@ const CheckoutButton = ({ event }: { event: IEvent }) => {
           <SignedOut>
             <Button
               asChild
-              className="hover:bg-neongreenhover:text-black button rounded-full"
+              className="bg-neongreen text-black hover:bg-lime-300 hover:text-black rounded-full"
               size="lg"
             >
               <Link href="/sign-in">Get Tickets</Link>

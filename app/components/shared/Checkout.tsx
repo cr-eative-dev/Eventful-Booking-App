@@ -40,7 +40,7 @@ const Checkout = ({ event, userId }: { event: IEvent; userId: string }) => {
         type="submit"
         role="link"
         size="lg"
-        className="button hover:bg-neongreen hover:text-black sm:w-fit"
+        className="button bg-neongreen hover:bg-lime-300 text-black hover:text-black sm:w-fit"
       >
         {event.isFree ? "Get Ticket" : "Buy Ticket"}
       </Button>
