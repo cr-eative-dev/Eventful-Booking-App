@@ -24,8 +24,31 @@
     --input: 240 5.9% 90%;
     --ring: 240 5.9% 10%;
     --radius: 0.5rem;
-    /* .cl-userbuttonpopovermain {
-      background-color: red;
+
+    /* .react-datepicker__header {
+      background-color: rgb(0, 0, 0) !important;
+    }
+
+    .react-datepicker__month-container {
+      background-color: rgb(0, 0, 0) !important;
+    }
+
+    .react-datepicker__day--keyboard-selected,
+    .react-datepicker__day--selected,
+    .react-datepicker__day--in-range,
+    .react-datepicker__day--in-selecting-range {
+      background-color: #000000 !important;
+    }
+
+   
+    .react-datepicker__day--selected {
+      background-color: black !important;
+    }
+
+    
+    .react-datepicker__day--range-start,
+    .react-datepicker__day--range-end {
+      background-color: black !important;
     } */
   }
 
@@ -49,6 +72,30 @@
     --border: 240 3.7% 15.9%;
     --input: 240 3.7% 15.9%;
     --ring: 240 4.9% 83.9%;
+
+    /* .react-datepicker__header {
+      background-color: rgb(0, 0, 0) !important;
+    }
+
+    .react-datepicker__month-container {
+      background-color: rgb(0, 0, 0) !important;
+    }
+
+    .react-datepicker__day--keyboard-selected,
+    .react-datepicker__day--selected,
+    .react-datepicker__day--in-range,
+    .react-datepicker__day--in-selecting-range {
+      background-color: #000000 !important;
+    }
+
+    .react-datepicker__day--selected {
+      background-color: black !important;
+    }
+
+    .react-datepicker__day--range-start,
+    .react-datepicker__day--range-end {
+      background-color: black !important;
+    } */
   }
 }
 
