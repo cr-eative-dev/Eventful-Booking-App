@@ -30,6 +30,7 @@ const CategoryFilter = () => {
 
   const onSelectCategory = (category: string) => {
     let newUrl = "";
+    const pageValue = 1
 
     if (category && category !== "All") {
       newUrl = formUrlQuery({
@@ -44,12 +45,18 @@ const CategoryFilter = () => {
       });
     }
 
+    newUrl = formUrlQuery({
+      params: newUrl,
+      key: "page",
+      value: pageValue.toString(),
+    });
+
     router.push(newUrl, { scroll: false });
   };
 
   return (
     <Select onValueChange={(value: string) => onSelectCategory(value)}>
-      <SelectTrigger className="select-field">
+      <SelectTrigger className="select-field" /* onClick={() => onClick()} */>
         <SelectValue placeholder="Category" />
       </SelectTrigger>
       <SelectContent>

@@ -39,6 +39,19 @@ const Search = ({
     return () => clearTimeout(delayDebounceFn);
   }, [query, searchParams, router]);
 
+  const onClick = () => {
+    console.dir('Hi')
+    const pageValue = 1
+
+    const newURL = formUrlQuery({
+      params: searchParams.toString(),
+      key: "page",
+      value: pageValue.toString()
+    })
+
+    router.push(newURL, { scroll: false })
+  }
+
   return (
     <div className="flex-center gap-2 w-full">
       <SearchIcon />
@@ -46,6 +59,7 @@ const Search = ({
         type="text"
         placeholder={placeholder}
         onChange={(e) => setQuery(e.target.value)}
+        onClick={() => onClick()}
       />
     </div>
   );
