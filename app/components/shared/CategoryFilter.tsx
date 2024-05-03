@@ -29,28 +29,20 @@ const CategoryFilter = () => {
   }, []);
 
   const onSelectCategory = (category: string) => {
-    let newUrl = "";
-    const pageValue = 1
+    const updatedParams = new URLSearchParams(searchParams.toString());
 
-    if (category && category !== "All") {
-      newUrl = formUrlQuery({
-        params: searchParams.toString(),
-        key: "category",
-        value: category,
-      });
+    // Always remove the 'page' parameter when selecting a category
+    updatedParams.delete("page");
+
+    if (category === "All") {
+      // If 'All' is selected, remove the 'category' parameter
+      updatedParams.delete("category");
     } else {
-      newUrl = removeKeysFromQuery({
-        params: searchParams.toString(),
-        keysToRemove: ["category"],
-      });
+      // Otherwise, set the selected category in the URL
+      updatedParams.set("category", category);
     }
 
-    newUrl = formUrlQuery({
-      params: newUrl,
-      key: "page",
-      value: pageValue.toString(),
-    });
-
+    const newUrl = `/?${updatedParams.toString()}`;
     router.push(newUrl, { scroll: false });
   };
 
