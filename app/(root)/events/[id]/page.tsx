@@ -46,7 +46,7 @@ const EventDetails = async ({
 
               <div className="flex flex-col bordergap-3 sm:flex-row sm:items-center">
                 <div className="flex gap-3 items-center">
-                  <p className="p-bold-20 rounded-full px-5 py-2 border-2">
+                  <p className="p-bold-20 rounded-full px-5 py-2 border-2 border-neongreen">
                     {event.isFree ? "FREE" : `$${event.price}`}
                   </p>
                   <p className="border-2 p-medium-16 rounded-full bg-grey-500/10 px-4 py-2.5 text-grey-500">
