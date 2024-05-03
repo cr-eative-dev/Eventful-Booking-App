@@ -110,6 +110,10 @@
   @apply font-medium text-[32px] leading-[40px];
 }
 
+.h4-bold {
+  @apply font-medium text-[28px] leading-[40px];
+}
+
 /* 28 */
 .h5-bold {
   @apply font-bold text-[28px] leading-[36px];
