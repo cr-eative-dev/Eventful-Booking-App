@@ -22,17 +22,17 @@ const NavItems = (props: any) => {
               isActive && "text-primary-500"
             } flex-center p-medium-16 whitespace-nowrap`}
           >
-            <Button
-              variant="outline"
-              className="hover:bg-neongreen hover:text-black"
+            <Link
+              href={link.route}
+              onClick={props.setOpen ? () => props.setOpen(false) : () => {}}
             >
-              <Link
-                href={link.route}
-                onClick={props.setOpen ? () => props.setOpen(false) : () => {}}
+              <Button
+                variant="outline"
+                className="hover:bg-neongreen hover:text-black"
               >
                 {link.label}
-              </Link>
-            </Button>
+              </Button>
+            </Link>
           </li>
         );
       })}
