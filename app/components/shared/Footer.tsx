@@ -18,7 +18,7 @@ const Footer = () => {
             width={164}
             height={38}
             alt="Eventful logo black"
-            className="flex-center dark:hidden"
+            className="dark:hidden"
           />
         </Link>
         <p>2024 Eventful - All rights reserved</p>
