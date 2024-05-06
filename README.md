@@ -8,7 +8,7 @@ Part of a coding project for SuperCode Bootcamp.
 
 - [@StefanAiroaie](https://github.com/StefanAiroaie)
 - [@renehellmich](https://github.com/renehellmich)
-- [@0xFTdev](https://github.com/0xFTdev)
+- [ft-byte.dev](https://github.com/ft-byte)
 
 ## Demo
 
