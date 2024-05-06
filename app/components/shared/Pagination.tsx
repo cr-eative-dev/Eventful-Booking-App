@@ -15,14 +15,18 @@ const Pagination = ({ page, totalPages, urlParamName }: PaginationProps) => {
   const router = useRouter();
   const searchParams = useSearchParams();
 
-  const onClick = (btnType: string) => {
+  const getNewUrl = (btnType: string) => {
     const pageValue = btnType === "next" ? Number(page) + 1 : Number(page) - 1;
 
-    const newUrl = formUrlQuery({
+    return formUrlQuery({
       params: searchParams.toString(),
       key: urlParamName || "page",
       value: pageValue.toString(),
     });
+  };
+
+  const handleNavigation = (direction: string) => {
+    const newUrl = getNewUrl(direction);
 
     router.push(newUrl, { scroll: false });
   };
@@ -32,18 +36,18 @@ const Pagination = ({ page, totalPages, urlParamName }: PaginationProps) => {
       <Button
         size="lg"
         variant="outline"
-        className="w-28 hover:bg-neongreen  hover:text-black"
-        onClick={() => onClick("prev")}
+        className="w-28 hover:bg-neongreen hover:text-black"
         disabled={Number(page) <= 1}
+        onClick={() => handleNavigation("prev")}
       >
         Previous
       </Button>
       <Button
         size="lg"
         variant="outline"
-        className="w-28 hover:bg-neongreen  hover:text-black"
-        onClick={() => onClick("next")}
+        className="w-28 hover:bg-neongreen hover:text-black"
         disabled={Number(page) >= totalPages}
+        onClick={() => handleNavigation("next")}
       >
         Next
       </Button>
