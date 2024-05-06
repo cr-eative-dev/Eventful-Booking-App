@@ -1,7 +1,7 @@
 "use client";
 
 import { useRouter, useSearchParams } from "next/navigation";
-import React from "react";
+import { useEffect } from "react";
 import { Button } from "@/components/ui/button";
 import { formUrlQuery } from "@/lib/utils";
 
@@ -24,6 +24,19 @@ const Pagination = ({ page, totalPages, urlParamName }: PaginationProps) => {
       value: pageValue.toString(),
     });
   };
+
+  const previousUrl = getNewUrl("prev");
+  const nextUrl = getNewUrl("next");
+
+  useEffect(() => {
+    // Prefetch the previous and next pages
+    if (Number(page) > 1) {
+      router.prefetch(previousUrl);
+    }
+    if (Number(page) < totalPages) {
+      router.prefetch(nextUrl);
+    }
+  }, [page, previousUrl, nextUrl, router, totalPages]);
 
   const handleNavigation = (direction: string) => {
     const newUrl = getNewUrl(direction);
