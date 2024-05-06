@@ -29,14 +29,16 @@ const Dashboard = async ({ searchParams }: SearchParamProps) => {
               My Tickets
             </span>
           </h3>
-          <Button
-            asChild
-            size="lg"
-            variant="outline"
-            className=" hover:bg-neongreen hover:text-black button hidden sm:flex"
-          >
-            <Link href="/#events">Explore More Events</Link>
-          </Button>
+
+          <Link href="/#events">
+            <Button
+              size="lg"
+              variant="outline"
+              className=" hover:bg-neongreen hover:text-black button hidden sm:flex"
+            >
+              Explore More Events
+            </Button>
+          </Link>
         </div>
       </section>
 
@@ -60,14 +62,17 @@ const Dashboard = async ({ searchParams }: SearchParamProps) => {
               Events Organized
             </span>
           </h3>
-          <Button
-            asChild
-            size="lg"
-            variant="outline"
-            className="button hidden  hover:bg-neongreen hover:text-black sm:flex"
-          >
-            <Link href="/events/create">Create New Event</Link>
-          </Button>
+
+          <Link href="/events/create">
+            {" "}
+            <Button
+              size="lg"
+              variant="outline"
+              className="button hidden  hover:bg-neongreen hover:text-black sm:flex"
+            >
+              Create New Event
+            </Button>
+          </Link>
         </div>
       </section>
 
