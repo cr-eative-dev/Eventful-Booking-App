@@ -67,7 +67,7 @@
     .react-datepicker,
     .react-datepicker__header,
     .react-datepicker__time {
-      background-color: black !important;
+      background-color: #09090b !important;
     }
     .react-datepicker__current-month,
     .react-datepicker-time__header,
@@ -82,12 +82,12 @@
     .react-datepicker__day--selected,
     .react-datepicker__day--keyboard-selected {
       background-color: rgb(215 249 88) !important;
-      color: black !important;
+      color: #09090b !important;
     }
     .react-datepicker__time-list-item:hover,
     .react-datepicker__day:hover {
       background-color: white !important;
-      color: black !important;
+      color: #09090b !important;
     }
   }
 }
