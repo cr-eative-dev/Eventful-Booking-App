@@ -40,6 +40,13 @@
       background-color: black !important;
       color: white !important;
     }
+
+    .react-datepicker__time-container
+      .react-datepicker__time
+      .react-datepicker__time-box
+      ul.react-datepicker__time-list {
+      height: calc(227px + 1.7rem / 2) !important;
+    }
   }
 
   .dark {
@@ -88,6 +95,13 @@
     .react-datepicker__day:hover {
       background-color: white !important;
       color: #09090b !important;
+    }
+
+    .react-datepicker__time-container
+      .react-datepicker__time
+      .react-datepicker__time-box
+      ul.react-datepicker__time-list {
+      height: calc(227px + 1.7rem / 2) !important;
     }
   }
 }
