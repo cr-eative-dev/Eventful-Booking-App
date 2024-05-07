@@ -236,7 +236,7 @@ const EventForm = ({ userId, type, event, eventId }: EventFormProps) => {
                           timeInputLabel="Time:"
                           dateFormat="MM/dd/yyyy hh:mm aa"
                           // wrapperClassName="datePicker"
-                          className="border h-[42px] p-3 rounded-md"
+                          className="dark:bg-[#09090b] border h-[42px] p-3 rounded-md"
                         />
                       </div>
                     </FormControl>
@@ -261,7 +261,7 @@ const EventForm = ({ userId, type, event, eventId }: EventFormProps) => {
                           timeInputLabel="Time:"
                           dateFormat="MM/dd/yyyy hh:mm aa"
                           // wrapperClassName="datePicker"
-                          className="border h-[42px] p-3 rounded-md"
+                          className="dark:bg-[#09090b] border h-[42px] p-3 rounded-md"
                         />
                       </div>
                     </FormControl>
