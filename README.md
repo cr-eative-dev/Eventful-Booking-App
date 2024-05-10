@@ -1,14 +1,12 @@
-# Eventful - Book experiences
+# Eventful - Event Booking App
 
-A website that features the ability to book experiences with local events.
-
-Part of a coding project for SuperCode Bootcamp.
+A web app that features the ability to book & manage experiences.
 
 ## Authors
 
 - [@StefanAiroaie](https://github.com/StefanAiroaie)
 - [@renehellmich](https://github.com/renehellmich)
-- [ft-byte.dev](https://github.com/ft-byte)
+- [cr-eative-dev](https://github.com/cr-eative-dev)
 
 ## Demo
 
