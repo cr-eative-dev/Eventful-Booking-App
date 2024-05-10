@@ -6,7 +6,7 @@ A web app that features the ability to book & manage experiences.
 
 - [@StefanAiroaie](https://github.com/StefanAiroaie)
 - [@renehellmich](https://github.com/renehellmich)
-- [cr-eative-dev](https://github.com/cr-eative-dev)
+- [@cr-eative-dev](https://github.com/cr-eative-dev)
 
 ## Demo
 
