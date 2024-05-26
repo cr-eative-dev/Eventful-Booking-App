@@ -1,6 +1,6 @@
 # Eventful - Event Booking App
 
-A web app that features the ability to book & manage experiences.
+Fully type-safe Event Management application called “Eventful” developed using React, TypeScript, and Next.js. The app is designed to handle the booking of small and medium-sized events, focusing on speed, efficiency, and user-friendliness. Eventful features a fully responsive design optimized for mobile devices.
 
 ## Authors
 
