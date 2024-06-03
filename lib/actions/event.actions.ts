@@ -7,6 +7,7 @@ import Event from "@/lib/database/mongoDB/models/event.model";
 import User from "@/lib/database/mongoDB/models/user.model";
 import Category from "@/lib/database/mongoDB/models/category.model";
 import { handleError } from "@/lib/utils";
+import { auth, clerkClient } from "@clerk/nextjs/server";
 
 import {
   CreateEventParams,
@@ -34,6 +35,14 @@ const populateEvent = (query: any) => {
 // create event functionality
 export async function createEvent({ userId, event, path }: CreateEventParams) {
   try {
+    const user = auth();
+
+    if (!user.userId) throw new Error("Unauthorized");
+
+    const fullUserData = await clerkClient.users.getUser(user.userId);
+    if (fullUserData?.privateMetadata?.["admin"] !== true) {
+      throw new Error("User does not have event creation permissions");
+    }
     await connectToDatabase();
 
     const organizer = await User.findById(userId);

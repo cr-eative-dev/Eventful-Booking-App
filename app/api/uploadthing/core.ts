@@ -1,9 +1,8 @@
 import { createUploadthing, type FileRouter } from "uploadthing/next";
 import { UploadThingError } from "uploadthing/server";
+import { auth, clerkClient } from "@clerk/nextjs/server";
 
 const f = createUploadthing();
-
-const auth = (req: Request) => ({ id: "fakeId" }); // Fake auth function
 
 // FileRouter for your app, can contain multiple FileRoutes
 export const ourFileRouter = {
@@ -12,13 +11,16 @@ export const ourFileRouter = {
     // Set permissions and file types for this FileRoute
     .middleware(async ({ req }) => {
       // This code runs on your server before upload
-      const user = await auth(req);
+      const user = auth();
 
-      // If you throw, the user will not be able to upload
-      if (!user) throw new UploadThingError("Unauthorized");
+      if (!user.userId) throw new UploadThingError("Unauthorized");
+
+      const fullUserData = await clerkClient.users.getUser(user.userId);
+      if (fullUserData?.privateMetadata?.["admin"] !== true)
+        throw new UploadThingError("User Does Not Have Upload Permissions");
 
       // Whatever is returned here is accessible in onUploadComplete as `metadata`
-      return { userId: user.id };
+      return { userId: user.userId };
     })
     .onUploadComplete(async ({ metadata, file }) => {
       // This code RUNS ON YOUR SERVER after upload
